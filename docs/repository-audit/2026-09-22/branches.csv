@@ -1,0 +1,416 @@
+﻿branch,sha,date,behind_default,ahead_of_default,subject,relation
+0.8.0,481676e51b65cb93e520b9f073123f22a06b212b,2025-11-22T00:04:57+01:00,0,0,fix - recalculate normals for wall-mounted handrail railings,same
+2077-centerline-profile,2e3d4486caa66e9209bde8f598e7deab0e5a3ee3,2026-07-25T08:34:14+03:00,0,1583,IfcCenterLineProfileDef: implement profile mapping,descendant
+2320-invalid-operand-fallback,53881c48884f7e585860e905456c7a9fee6a358a,2026-07-25T08:34:39+03:00,0,1583,ifcgeom: salvage subtractions when OCCT refuses invalid boolean operands,descendant
+2381-parent-task-animation,4d9785e3ce7d8917d024b88633889b8e89bb4a11,2026-07-25T08:22:52+03:00,0,1583,Bonsai: allow 4D animation at parent task granularity,descendant
+4dbonsai,6c69c9368bc07db8dd7bd67d60858afc6e5a9106,2026-02-17T13:22:02+11:00,0,524,Code dump of https://github.com/Svisuals/4D_Bonsai/,descendant
+5602-housekeeping-to-prep-for-infrastructure-authoring,b8d98b7512c93f18e7208da13bbb027ddcd4cda9,2024-10-19T11:15:30-03:00,3773,0,Black format,ancestor
+5779-empty-boolean-result,e94b3595f7b187c5f74332847a852c115d2113c6,2026-07-25T08:34:27+03:00,0,1583,ifcgeom: don't silently accept implausible empty opening subtractions,descendant
+5880-hybrid-opening-fallback,bd27cf38aaac18cfc00e04cf3ee1ef0563453833,2026-07-20T16:37:33+03:00,0,1509,ifcgeom: fall back to unopened geometry when convert_openings() cleanly fails,descendant
+6588-filling-directionsense,5ca5341ff57310be5a7699b700141c8491fd6aae,2026-07-25T08:22:25+03:00,0,1583,Bonsai: orient new fillings by the wall's direction sense,descendant
+7288-addon-prefs-hardening,fffcf207245c4f933922bb7b94f52b33bb207923,2026-07-20T17:22:13+03:00,0,1509,Bonsai: fail with an actionable error instead of a bare KeyError when addon preferences can't be found,descendant
+7444-remove-relationship-validation,57c3d4b17674feaf83c4298badf46df124517e42,2026-07-25T08:34:21+03:00,0,1583,IfcConvert: remove unmaintained WITH_RELATIONSHIP_VALIDATION feature,descendant
+AI_effort_estimate,c7ff18d0736a0c06a94d3d2421fbbf451a3ad74e,2026-04-20T20:29:28-05:00,0,943,The is a proposal include an **effort estimate** in the commit message body indicating how difficult the agent assessed the task to be.,descendant
+Add_arithmetic_operators,0844550d06f33f2e2eb61f58bbaf59bcadd17588,2025-11-24T11:25:33-06:00,0,19,feat(selector): add variable substitution and arithmetic to format(),descendant
+Additional_Selection_and_Deselection_Tools,03b3d3f6274cca7bb3cca425a5cdf760ce7067ea,2026-07-15T09:30:59-05:00,0,792,Make Type Attributes panel values select_similar buttons,descendant
+Assign_Product_In_Any_Order,4463dd8af9e23fbbd9c99917cf150aa2846b0577,2024-02-04T17:35:40-06:00,10137,0,deleted extraneous variables,ancestor
+BIM_Dimension_SuppressZeroFeet,f58875228dbf94bdfdbe1ed4fc34d117728036fb,2026-05-15T08:09:01-05:00,0,973,Closes #7775: have a BBIM_Dimension.SuppressZeroFeet like there is a BBIM_Dimension.SuppressZeroInches,descendant
+BonsaiPR_bleeding_edge_installation,5d842aa644fcccc967bceee9c23696558ba99e9f,2026-02-25T07:34:19-06:00,0,546,whoops,descendant
+Concatenate_selections,7e3a9e4a75fa88d6c11092a58a79e1c6bdd69398,2026-04-19T06:53:46-05:00,0,783,Derive materials from selected objects in select_by_material,descendant
+Copy_Array_Attributes,0f835ca7394d8cad1b55f0503569729ea30081b6,2024-05-28T18:43:13-05:00,9458,9,removed unnecessary code,diverged
+Fix_FallDecorator2,8e02ab5b309041bde245e3b57f588628427931f0,2026-02-24T14:33:51-06:00,0,544,Fix #7718: Fix FallDecorator label calculation for all slope annotation types,descendant
+Fix_PermissionError,46640722b405d8b3a1a245a2d9b66dc79dd9a892,2026-03-29T09:51:15-05:00,0,822,Fix PermissionError deleting locked HDF5 cache on Windows,descendant
+Fix_isolate_objects_ignoring_hide_select_hide_viewport,2f5d107ff1bc887218018b0a34f89386e9ba499f,2026-05-25T10:06:27-05:00,0,944,Fix #7681: Fix isolate_objects ignoring hide_select/hide_viewport (#7710),descendant
+Generalize_ExcludeAnnotation_to_any_IFC_element_2,8634569de7da9d83797cdd5f322c91e8d1d138ed,2026-04-24T20:33:05-05:00,0,544,Fix #7998: Fix ExcludeFromDrawing filter corruption,descendant
+Layer_Work,7c738c15d927e926ba05b31ef09b852c07ce04f2,2026-03-14T12:21:54-05:00,0,686,Fix slab layer geometry for rotated and angled slabs,descendant
+Linked_File_Features,9fd119bf957d989dcbbcbf856e53c46b68022025,2026-07-11T10:37:57-05:00,0,1351,Bonsai: custom display names for links,descendant
+Make_remove_drawing_from_sheet_undoable,77e66a7d89b58efd7de231240bc2641b6630d826,2026-03-19T11:17:40-05:00,0,719,Fix #7275: Make remove_drawing_from_sheet undoable,descendant
+ManualDrawingReference,3409c656ca91dbd82bb9428645e956e740aaf45c,2026-05-25T08:03:58-05:00,0,995,Fix workspace.py is_manual_reference block ordering for build compatibility,descendant
+Named_Linked_Aggregates,c506e65a894a68235829b38e5bb815b6aa565140,2025-06-22T06:54:41-05:00,1383,1,a start,diverged
+Space_at_origin_warning,ace1b56467044e2f55919ecff6b65b8076c47120,2025-11-26T17:38:39-06:00,0,24,Space_at_origin_warning,descendant
+Unhide_with_alt_click,60ccd3ab7e03766409221a3aed777243e789eed2,2026-07-02T20:16:04-05:00,0,779,Add ALT+Click unhide to select_group_elements,descendant
+Update-IfcGlobalId.cpp-to-support-boost-1.86,1c19f0847125aaa092b1d5a8b83fd605b35f7590,2024-09-02T17:16:47+02:00,4496,2,use a macro to change for boost > 1.86,diverged
+_ifc_hdf5,16f2b0a0d25f204c59648be1ea6f27f74c969f96,2018-02-13T14:50:39+01:00,19166,65,"Renumber instances, add comments, update federate for group structure",diverged
+_voxels,62386c663adcad20ae53d4376c2c2f2e9ef83f26,2021-01-22T11:00:14+01:00,18035,16,Added default constructor to IfcHierarchyHelper,diverged
+add-copy-boundary-attribute-to-selection,4f0e572e0f47c8d0915c9923fadba3de33c1802e,2026-08-17T23:03:41+02:00,0,2847,Add copy attribute to selection for boundaries,descendant
+address-quadratic-inverse-handling,2222c0f5bfdc6b26cd90a936269c832f5aeee112,2026-08-28T10:37:19+02:00,0,2932,Address quadratic inverse handling,descendant
+address-tests,d89630d23ecdaf5ae3b1537b26ca360f8436b0ad,2026-09-02T15:22:13+02:00,0,3000,Fix decorator,descendant
+after_assign_remove_from_old_collection,7a60ff886d790dfeea5644707aa5214e2c7229ef,2025-11-27T07:53:22-06:00,0,25,Remove object from non-IFC collections after IFC class assignment.,descendant
+agents,78f4190160ee773085d0cbe132057cc467fef57d,2026-02-13T18:24:46Z,0,515,Add AGENTS.md contributor guide,descendant
+alignment-6890-csv-spirals-cant,c36fe0a44608c600a257d5ef3717aca3fab526b1,2026-07-21T17:49:51+03:00,0,1512,alignment api: read spiral transition curves and cant from PI method CSV,descendant
+annotation_multi_drawing_7798,2739df865656010cda2bf08a64554a57d4542f11,2026-08-20T11:58:53-05:00,0,1001,Bonsai: keep shared annotations when removing a drawing,descendant
+assign_container_for_unloaded_elements,e8ab30ab3ed5e7776dd5ac7b21fec475261ef65c,2026-03-27T11:56:20-05:00,0,810,Fix for #7861 and #7801: Fix error in assign_container for unloaded elements,descendant
+attempt-at-cylinder,53c95d26ba53223178e6d778878eac4c3aced0fe,2026-01-28T09:40:01+01:00,0,403,wip,descendant
+auto-container-regen,adf01be1d05b5f66e7f1b92f520f2a67a6447aeb,2026-08-18T00:06:27+02:00,0,2866,ifcopenshell.util.boundary: make face matrix robust against collinear first vertices,descendant
+auto-generate-ifc-based-space-boundaries,243f13de0949a5b45054bd53d15d65d1852fc8ea,2026-08-18T00:06:27+02:00,0,2863,Optimize coplanar face reconstruction and add tests,descendant
+auto-space-height,9b2844425548e02ac73199f4fe3fb4ff680635b9,2026-08-18T00:06:27+02:00,0,2855,Fix space regen Z placement for centered representations,descendant
+automatically_creating_contexts,d71b9c9c8cf667bf4b65e487c9e4505dfcdae4bf,2026-03-28T09:43:51-05:00,0,810,Auto-create body context when adding drawing,descendant
+bim_select_aggregate_deselect_intial_object,f442a99a2c5bbcecd70ff25d41db07cc32d5b8f0,2024-03-16T11:01:53-05:00,9945,1,"when `bim.select_aggregate` is run, it deselects the initial object",diverged
+blender-addon-updater,1cf11f7bb049e72337e1a89b94f7ab58c1d02a09,2023-03-07T19:25:19+05:00,12767,2,blenderbim addon updater accommodations,diverged
+blender_only_during_activate_drawing,f8e53c20a70f23504789a0d64e56c772f478e7dd,2026-02-22T14:10:50-06:00,0,535,Fix #7681: Fix isolate_objects ignoring hide_select/hide_viewport,descendant
+bonsai-2709-ifcconvert-threads-default,7c5b4d60aaaf1611f694dde9d3e60cbb60af8d59,2026-07-25T08:20:58+03:00,0,1583,ifcconvert: default --threads to auto-detected CPU count (#2709),descendant
+bonsai-5719-annotation-fill-bg,f643c18dc0c287934833926aaac5b46ede57937a,2026-07-21T10:32:42+03:00,0,1511,Bonsai: stop rasterizing fill-bg annotation text on PDF export,descendant
+bonsai-5909-append-aggregate,9a02b308fd9c30067be6f509dfe94ef906989c1c,2026-07-21T12:27:16+03:00,0,1511,"Append aggregates with their parts, sub-aggregates and openings (#5909)",descendant
+bonsai-6287-self-intersecting-profile,493a79828318340581d2e445a82bf090aeb26050,2026-07-20T14:32:16+03:00,0,1509,ifcgeom: detect and repair collinear self-intersections in profiles,descendant
+bonsai-6400-unit-change-warning,248fb3e3fb91c076c09c0fd701b6cc0710fd9f3a,2026-07-20T09:57:46+03:00,0,1509,Bonsai: warn before a unit change that would silently rescale the model,descendant
+bonsai-6423-axis-linework,d2a08d37a1e77399651abfd429db9805f8817acf,2026-07-20T12:35:10+03:00,0,1509,Bonsai: draw element Axis reference lines in drawings,descendant
+bonsai-6424-hidden-lines,6c8c63e34961f7567daacb43d94dfe2211767e70,2026-07-20T11:54:39+03:00,0,1509,SvgSerializer: optionally draw occluded linework as hidden lines,descendant
+bonsai-6425-element-drawing-classes,de389bdce3b01c6cfca26bcab97a5fd63b0c8ea9,2026-07-20T11:34:33+03:00,0,1509,Bonsai: per element drawing appearance via assignable CSS classes,descendant
+bonsai-6426-text-sizes,aa588cecd6bafaa0889f36b08d7c0b9d47d9bab5,2026-07-20T10:20:25+03:00,0,1509,Bonsai: add 1.3 mm and 1.5 mm annotation text sizes,descendant
+bonsai-6427-multiline-text,04831147df44a188a44bb978add83d3cd7190c6c,2026-07-20T11:17:14+03:00,0,1509,Bonsai: real multiline entry for text annotations,descendant
+bonsai-6428-sheet-item-position,3a0e8ccd31ccc0fa1e0d6b05cd9fee1ada7ac735,2026-07-20T12:41:53+03:00,0,1509,Bonsai: position drawings on sheets without leaving Blender,descendant
+bonsai-6591-general-item-deletion,2138b0750a2ba5dbd59b430ca26b110b294d06ed,2026-07-20T10:31:28+03:00,0,1509,Bonsai: generalise representation item deletion to nested items,descendant
+bonsai-6702-texture-support,fc82b71fe0e7bfc3931ffb248fc70bc179671262,2026-07-21T15:27:07+03:00,0,1511,Bonsai: always load texture UV maps so textured models render out of the box,descendant
+bonsai-6885-ifcgit-placement-conflicts,117f858236d0fb2af084b87d590974e262c57de3,2026-07-21T12:43:03+03:00,0,1511,ifcgit: report conflicts auto-resolved by ifcmerge in the merge panel,descendant
+bonsai-6908-svg-door-arcs,df365de2a884ef098a6b5755197424de0ff7e0f2,2026-07-20T13:34:22+03:00,0,1509,SvgSerializer: only draw door swing arcs on the storey where the door is cut,descendant
+bonsai-6980-annotation-phase-classes,76d3531d62432efeb43113773677265a4764f425,2026-07-21T08:49:13+03:00,0,1509,Bonsai: carry annotation status/phase classes onto text labels too,descendant
+bonsai-6981-bcf-snapshot,6c8aa1d2b83e274b82a389c3f9707c6dd2f41535,2026-07-20T20:17:08+03:00,0,1509,Bonsai: align BCF snapshot camera to the active 3D view,descendant
+bonsai-7146-vertical-axis3,bd3a727f4f233efbabe272c2ae77c003ac78dd51,2026-07-20T13:03:17+03:00,0,1509,Bonsai: don't blow up a vertical AXIS3 element when its layers change,descendant
+bonsai-7351-foreign-repr-item-id,a60e03e32a77de6437f8d8b83886a4e7859bbf21,2026-07-20T19:55:22+03:00,0,1509,bonsai: add regression coverage for foreign representation-item ids (#7351),descendant
+bonsai-7369-drawing-class-leak,a6e2a97b6df31b5c87e1fef62591c1fc7545592d,2026-07-20T13:24:38+03:00,0,1509,Bonsai: stop merged cut linework leaking classes onto disjoint pieces,descendant
+bonsai-7410-selection-guard,04960437f9bb51b91456855ffd5d7bea8fd1b592,2026-07-25T08:38:32+03:00,0,1584,Bonsai: guard set_objects_selection against excluded/hidden collections,descendant
+bonsai-7453-explicit-axis,c1081dcceec20352bd89ac1a546d782ff6b389df,2026-07-20T10:13:12+03:00,0,1509,Bonsai: surface and explicitly fix walls whose length is on local Y,descendant
+bonsai-8731-door-arc-circle,846f6e36e5fbeec43765e60fb20dcfd4680c1437,2026-07-21T17:26:53+03:00,0,1511,"ifcopenshell.api.geometry: author door swing arcs as IfcCircle, not IfcEllipse",descendant
+bonsai-8865-mixed-install-guard,b829fbe13d499e92303d7b70c15108370d2ee815,2026-07-23T08:58:13+03:00,0,1523,Bonsai: self-repair stale bundled wheels at startup (#8865),descendant
+bonsai-crash-debug,d66c7195e95eb05afa58805b40e6774317b8e445,2025-09-29T17:19:58+05:00,507,6,Show sh commands before running them,diverged
+bonsai-dead-gherkin-runner,6e152d6bbf97c9c5c2d4f21eecd97a21282dfeeb,2026-07-20T13:41:03+03:00,0,1509,Bonsai: remove the dead Gherkin runner from test/bim/bootstrap.py,descendant
+bonsai-drawing-revisions,f105c6f1fa3b871e5e63f9ba12004fbb57caddeb,2026-04-07T23:50:43+01:00,0,894,"Bonsai, drawing sheets show git tag revision history in titleblocks",descendant
+bonsai-drawings-active-drawing-guard,6668f185a91de4fa0b5e1b9ef5851159fa8ffd7e,2026-09-12T20:48:06+01:00,0,3097,bonsai: don't raise when the active drawing has been removed,descendant
+bonsai-license,a072c72666a4ea30b036107eb33c9d6de33cf619,2026-04-07T23:53:05+01:00,0,894,"Bonsai, add license tagging for IFC elements",descendant
+bonsai-mep-bend-flow-arrow,07b19277bf5c78b5d51b70f1e74203a19edf83d0,2026-07-21T13:29:47+03:00,0,1511,"Bonsai: draw a bend fitting's flow arrow along its curve, not the port chord",descendant
+bonsai-ojt001-cleanup-recipe,01bd6cb8972c37181eb3acc49c2003f19cf6b031,2026-07-21T15:38:12+03:00,0,1511,ifcpatch: add FixDoubleTypedPredefinedType recipe for OJT001 cleanup,descendant
+bonsai-ojt001-occurrence-predefinedtype,8c7e9d5d992745b34a4bc2ed962a315e5c230fc8,2026-07-21T09:45:46+03:00,0,1511,ifcopenshell.api.attribute: clear occurrence PredefinedType when type becomes concrete,descendant
+bonsai-patch-empty-output-path,a4c42aa071037e875a1c4124ddb98110dd1e4a06,2026-09-12T20:51:50+01:00,0,3097,bonsai: don't write a patched model when no output path was given,descendant
+bonsai-patch-stale-references,f5de7691c58585a47930b42fc4542f2bf3d1ffc2,2026-09-12T22:05:16+01:00,0,3097,bonsai: clear stale references after patching the loaded model,descendant
+bonsai-stairflight-ifc43-deprecated-attrs,63ac1fe62693a15c4a74ea81b31f39665d16ce6a,2026-07-21T09:33:07+03:00,0,1509,Bonsai: don't write IFC4.3-deprecated IfcStairFlight attributes,descendant
+bug_extend_walls_to_underside,14c2a6b6a49209539246786c8cd6ef1e913295a6,2026-05-21T18:48:48-05:00,0,1002,Merge origin/regenerate_wall_to_underside to fix build conflict,descendant
+build-add-test-2,f2aeb942980bce997a836ee0143cfb02c5dc3d92,2025-09-18T17:21:44+05:00,606,10,build-all.py - avoid building 3d viewer for OCCT,diverged
+build-all-tests,0884301da58f279613bd52f5ff38bc11f618d2a0,2025-09-16T11:01:18+05:00,622,3,build-deps.cmd - bump hdf5 to match build-all,diverged
+build_pyodide-debug,54df93c001528c1fe762918da03212127ee69e6b,2026-08-07T12:12:36+05:00,0,2739,build_pyodide: debug,descendant
+bulk-load-drawing-annotations,f092893f7a4611caef794857b62123963d266efb,2026-07-11T15:51:20-05:00,0,1366,Add bulk-load of selected drawings' annotations,descendant
+bulk-switch-representation,72813d3f414671b285938ea17ca51fcf58e55c10,2026-04-07T09:39:19-05:00,0,890,Helps with #7853: Switch representation in bulk on selected objects,descendant
+bump-ios-build,b6e48991c931322ca86796aa60efefd7d7658c69,2025-04-21T13:12:15+05:00,1903,3,Bump IOS url version to 0.8.3,diverged
+can_reassign_IfcTypeProduct,bb7748cfc8a763b8525b5811334328bf83d83bfd,2024-05-07T09:44:22-05:00,9531,3,fix #4622 - can now reassign IfcWindowStyle and IfcDoorStyle,diverged
+catch_assign_product_bug,1ca1954edc78c03cfad04a93b89442a963500c56,2025-11-14T19:28:04+05:00,110,1,try to catch bug in assign_product,diverged
+ccache-workflow-test,c27612b329351a5c06756c905a3f767b451a18a8,2025-10-02T12:13:48+05:00,485,4,Update build_osx.yml,diverged
+center-opening-on-cursor,9d0cc5ab3f5aae4b0fa407571c907ad2f62b4f5b,2026-04-02T21:42:15-05:00,0,850,Center IfcOpeningElement bbox on 3D cursor,descendant
+check_to_see_if_context_exists,33dc49693a6079ac1ff8e92d8659ffe3b9e779b9,2023-10-21T19:53:50-05:00,10700,2,"whoops, forgot to delete some bits.",diverged
+ci-opencollada-test,dce905210a605011a93a5f9d0ecdbe0ca5583a1c,2025-11-17T19:00:08+05:00,80,4,build-all.py - include swig-version to dependency name,diverged
+copilot/research-wall-generation-from-slabs,1309c2e70b93a635b94874195546ee3a65ff5547,2026-07-02T23:53:58Z,0,1300,Fix cross-loop wall joining for composite slab profiles,descendant
+correct_slab_depth_at_import,385d4aa40935bbebf47cd05574152aa323f5176a,2026-03-14T13:14:51-05:00,0,687,Self-heal inconsistent slab extrusion depth on import,descendant
+create-rocky-shared-branch,f2129c81b7bc8ba2fff85f54ba16aa9fa8781881,2026-08-04T14:47:37+05:00,0,2718,build_rocky: set git identity before committing to build repo,descendant
+cross_select_integration,9f5e4d3949c4dfaca50599c0721e344a852e9d8c,2026-06-14T18:53:51-05:00,0,1043,Fix parametric dimension dot clicks broken by bim.cross_select BLOCKING modal,descendant
+csharp_wrapper,214c22896244525267936242895e1ee7c58fe3e0,2015-03-20T21:11:46Z,19351,1,Change signature of attribute setters to take and return boost::optionals Remove set- prefix for setters,diverged
+daily-builds,dd2df71c35231262e1b2af60cf1ba7eb7909e7d9,2025-06-20T16:57:46+05:00,1405,1,Restore daily builds,diverged
+datamodel-v1.0,df59c888fd441e2e56fd68eaa98d7a0796b39ab2,2026-06-11T21:02:03+02:00,0,1437,Fixes after merge,descendant
+debug-active-drawing-improvements,647a1f44eec3ae353702181fc43dbd5683a2aa43,2026-05-13T08:17:45-05:00,0,972,select all the offending objects at the end.,descendant
+debug-drawing-faster-failure-search,9283d866610fb154f8cc83725f9f4fce881af859,2026-07-01T06:13:40-05:00,0,975,Merge commit '1acce39867' into debug-drawing-faster-failure-search,descendant
+default_relative_path,6b9dbebcccb9cc722865e6ed6d4160d02aa71d53,2026-06-08T20:16:45-05:00,0,1127,Decouple should_start_fresh_session from use_relative_path   so IFC files always open in a clean session,descendant
+delete_clip_removes_slab_connection,b6e4b5b50e029ed88c24815b9ba37b5153b70bea,2026-06-04T17:42:26-05:00,0,1081,fix #8146: Remove slab connection when clip FaceSet is deleted,descendant
+dependabot/github_actions/hendrikmuhs/ccache-action-1.2.24,e0fd6d49e24ba52268d4653ec11881e9fe2f13ea,2026-09-04T22:44:39Z,0,3036,build(deps): bump hendrikmuhs/ccache-action from 1.2.23 to 1.2.24,descendant
+dev-daily-work-build,0e084f283063216cf069b54e00a85dc3c128dc78,2026-08-18T00:11:00+02:00,0,2885,Port space/boundary code to v0.9.0 API changes,descendant
+dev-notes-system,8ece3790aaf71992558b9be6034ca8c1ea87f4c7,2026-07-05T18:56:26-05:00,0,1317,Update opening-template dev-note,descendant
+dimension_in_different_units,394559ff11a28b84a8c5106e31387654ff6d6884,2025-01-01T23:42:25-06:00,3203,1,snapshot,diverged
+dims_with_multiple_customunits,e5116732d03a8ca1b0b37c44316ae5f5df4ff1fb,2026-05-15T07:48:03-05:00,0,972,closes #8060: add multiple customunits to the dimensions string.,descendant
+doc/api-docstrings,07b53f38b4d0294246666bdad46655e221659f7b,2026-03-23T22:32:49Z,0,802,regenerate_wall_representation: document BBIM_Boolean preservation requirement,descendant
+doc/geometry-rst,2cae90d3b1205462570e68a6a89e6f8dd60589da,2026-03-23T22:36:24Z,0,798,"geometry_creation.rst: add sections for assemblies, clipping normals, openings",descendant
+doc/ifcquery-readme,bb755957bb726280742d28b4f638ae24143fbf75,2026-03-23T23:50:44Z,0,805,Merge branch 'v0.8.0' into doc/ifcquery-readme,descendant
+doc/util-shape-builder,2f05d36272ba93c5ad0db0a2040aae16df3cd784,2026-03-23T22:31:28Z,0,800,shape_builder: fix half_space_solid agreement_flag docstring,descendant
+docs,6aeddcabc0997be9587a76eb44e81b058198bded,2021-02-05T11:54:03+01:00,16383,0,Delete file,ancestor
+docs-selector-quoting-rule,493dc55caa57721905c877a773ac078406739e4e,2026-09-09T20:16:07+01:00,0,3093,Document the quoting rule in the selector syntax,descendant
+dont_sanitize_drawing_name,45c64e1b4a5f730b96d4ba747ad5f99e03935530,2026-03-19T06:40:47-05:00,0,719,Fix #7784: Fix drawing names with special chars in sheets,descendant
+drawing_render_overrides,ad9d368a3abe9879315c0e1fc8df28d08d5639fb,2026-09-02T23:06:44-05:00,0,1317,Keep render override transparency alive across geometry edits,descendant
+drawings-on-sheets-toggle-8823,f5a1ba0d5fbcca46f2289a94bfed6834a4f4aa7e,2026-07-20T19:01:32-05:00,0,1509,Bonsai: add toggle to show only drawings placed on sheets,descendant
+duplicate_opening_on_type_duplication,ba4a94dfead0a23588b94604a21bf5a729a1ed5d,2026-06-22T13:25:09-05:00,0,1317,Added tool.Blender.Modifier.has_mirrored_type and set_mirrored_type.,descendant
+dynamic_font_size,30c56430e0d44c7720204727404c1c7289b52a57,2024-06-01T21:45:07-05:00,9242,1,attempting to make font scale dynamic,diverged
+expose_identity_entity_map,9a13e4de5cf73f7ba2adfc67a19a94ce4c90c041,2024-03-21T17:49:25+05:00,9910,1,expose ifc file identity to entity mapping to python api,diverged
+extend-profiles-and-extrusions,648c328d3783ace58e95e68f7788a35787a0cbda,2026-06-11T10:10:46-05:00,0,1167,Merge commit '0c993d3292' into extend-profiles-and-extrusions,descendant
+feat-8412-ifcdiff-signature,e0dcc520f1f9731a0bdfaa60aa837d377ce0d3e1,2026-07-11T18:40:28+03:00,0,1366,IfcDiff: optional content-signature matching to track real changes (#8412),descendant
+feat/geometry-new-apis,6b7318321ba8e834bd263ada6551e3ab72d44b21,2026-03-23T22:52:09Z,0,803,black,descendant
+feat/ifcchat,8c6d59789d8d515956bc33ba5df07a93b19b04cd,2026-03-24T00:07:21Z,0,806,Package ifcmcp as a HTML client-side chat app (#7697),descendant
+feat/ifcchat-claude,95851ff94c82f647313f9a98843dcf0d3cdd69f7,2026-04-02T18:50:27-06:00,0,850,feat: Add Anthropic Claude API support to ifcchat,descendant
+feat/ifcchat-token-efficiency,495a8d33cdf2eef6580bc7c43e8feda55de62639,2026-04-03T15:47:13-06:00,0,873,feat: Reduce token usage in ifcchat and default to IFC4X3,descendant
+feat/ifcedit,2ac4225ac9e02ee6a871d582ba9c7ef868870422,2026-03-23T23:41:35Z,0,803,README: add missing ifcquery subcommands to relationship section,descendant
+feat/ifcmcp,d8e9ae39a2cd5dbec7ee4896d2fdc7433606a39d,2026-03-23T23:41:50Z,0,803,"README: add missing tools (ifc_new, ifc_reset, ifc_contexts, ifc_materials, ifc_plot, ifc_render, ifc_shape_*); fix mcp dependency note; add readme to pyproject.toml",descendant
+feat/ifcparse-fuzz-harness,e49c47fbd2d85f2fe422875713719e2fc1b7c96f,2026-08-19T22:21:58+01:00,0,2866,fuzz: adapt harness for v0.9.0 rebase,descendant
+feat/ifcquery,cf3602bee1ce64ba12215cb0dcc3a8e07a0e6f71,2026-03-23T23:22:47Z,0,802,Add ifcquery CLI tool for IFC model interrogation,descendant
+feature-b4.2-relative,aaac864dcfc56284d47dba4f32a3b0fee0140b3d,2024-07-18T19:09:08+10:00,5286,23,More import fixes,diverged
+feature-clash,feba8af4c755f97c1c837b5b9d34559817eca9b3,2024-02-29T17:02:06+11:00,10171,42,Reconcile changes between master and branch,diverged
+feature-clash2,e4cebd4e5d66b4286428277f56e417c6ffc1793a,2024-03-26T15:13:15+01:00,9886,6,checkout v0.7.0 -- src/ifcgeom_schema_agnostic/IfcGeomRepresentation.cpp,diverged
+feature-clash3,71ad98b515e163eeee7edf4b456777ded3b52aef,2024-03-05T20:27:04+01:00,10041,3,Further trying to understand algos,diverged
+feature/display-utilities-refactor,65671dde166823f3472947428e6ce2c00b32a6f7,2025-11-23T21:50:52+01:00,0,17,Make hide_render optional to improve performance for aggregate mode,descendant
+feature_distinguish_derived_in_supertype_values,0cc48b17ab434603d97ad0d37be1b92b18c6a870,2022-11-12T15:48:13+01:00,13306,2,Test files,diverged
+fix-1015-nonmanifold-cut,b394b59b446d01274081d3c2500f29ff22925d43,2026-07-23T08:03:39+03:00,0,1522,Keep valid non-manifold subtraction result instead of dropping the cut (#1015),descendant
+fix-2052-shape-aspects,e29474cf233e74437587a54e612c4b9b60f39ab3,2026-07-16T17:53:41+03:00,0,1451,Bonsai: split multi-material profile sets into per-item shape aspects,descendant
+fix-2400-validate-measure-units,b5824ffab10a23983e63110270be502e06726992,2026-07-25T08:35:05+03:00,0,1583,validate.py: flag instantiated measures with no corresponding unit,descendant
+fix-2639-bbox-substitution,fb7aa40bf867975ba94ec07735ae465299fbb0c7,2026-07-25T09:35:53+03:00,0,1584,ifcgeom: ignore BboxSubstitutionThreshold in the SWIG wrapper,descendant
+fix-3096-git-describe-titleblock,d15a0e2b4f8e1458f20622b172e99d1add47e312,2026-07-16T18:06:40+03:00,0,1451,Bonsai: expose git describe string to titleblock templates,descendant
+fix-3096-ifcgit-main-branch,f1b9d505526676dd71d0e35c2a2730941436a8ee,2026-07-16T17:31:15+03:00,0,1451,Bonsai: default new Git repos to a main branch,descendant
+fix-3189-tree-file-pointer,dfefb5377c6412cc18c4a2f3b2c25c4524626265,2026-07-11T20:34:38+03:00,0,1366,ifcopenshell: attach owning file to geom.tree select results #3189,descendant
+fix-3424-ifccsv-wildcard,a3db33411c7a120746b22e480f285efbdd2dc104,2026-07-11T15:22:08+03:00,0,1349,Expand wildcard attributes in IfcCsv export (#3424),descendant
+fix-3742-coplanar-bonsai-projection_2,5a1723f52478906141d1f83b4908703b5ce8fcda,2026-04-12T13:06:09-05:00,0,902,Fix coplanar boundary line removal for offset and contained element pairs,descendant
+fix-3995-curtain-wall-boundary,0593a84d34b6972770b31cfad1572bf8d4de91e4,2026-07-16T18:26:22+03:00,0,1451,Bonsai: let standalone IfcCurtainWall bound spaces and boundaries,descendant
+fix-4094-swept-disk-fillet,173ab2a3116080151240c0bb3a7e20f54c12dc1b,2026-07-11T09:22:12+03:00,0,1349,Fix IfcSweptDiskSolidPolygonal fillet: crash to correct rounded corners (#4094),descendant
+fix-414-ownership-propagation,c9e8bbeaa08d07e630461150dd530c1e83dc2ff0,2026-07-25T08:34:45+03:00,0,1583,Fix #414: propagate file ownership when assigning instance attributes,descendant
+fix-418-nonmanifold-opening-facesets,cad1eecb6987828c27e095a18e94b4af11301fbd,2026-07-25T08:18:23+03:00,0,1583,ifcgeom: keep one copy of repeated faces in faceset helper duplicate removal,descendant
+fix-4499-uniqueness-rules,5d439f2729ce18f64471685ed6b5ec728bfa3f97,2026-07-11T18:39:36+03:00,0,1366,Source UNIQUE-clause validation from express_parser (#4499 review),descendant
+fix-4594-clash-coplanar,468104b1b5a7f4e2009b6993d9488b2d9e1d7820,2026-07-11T07:54:38+03:00,0,1340,Detect clash for perfectly aligned coplanar-face overlaps (#4594),descendant
+fix-487-boolean-sequential-fallback,04310a5c9a95bb7e86de9b2497619b583812dcec,2026-07-25T08:34:52+03:00,0,1583,ifcgeom: retry failed batched opening cuts sequentially (#487),descendant
+fix-5433-svg-fonts,6546abca6e71a0fe3f390031212c3e895f5909e9,2026-07-16T14:08:43+03:00,0,1438,Bonsai: embed bundled fonts in exported drawing SVGs,descendant
+fix-5450-mep-bend-profile-error,08b1cb300406ca9efdc473768f2dddb5c5526c9c,2026-07-16T13:11:35+03:00,0,1438,Bonsai: report a clean error instead of a traceback for unsupported bend profiles,descendant
+fix-5618-negative-surfacestyle,b1a641fa688c8d1d8651672d34e92f9a9da18fad,2026-07-11T07:21:38+03:00,0,1340,Use NEGATIVE-side IfcSurfaceStyle as a fallback instead of dropping it (#5618),descendant
+fix-5630-tessellated-cut,60033981b3ff768a1a28bbd3ad7f4b1091b26450,2026-07-11T07:48:52+03:00,0,1340,Retry boolean CUT that OCCT reports done but subtracts no volume (#5630),descendant
+fix-5711-coplanar-faces-dissolved,403997f0b36c5de0c1a8d8d2f99872948b10a816,2026-07-16T13:26:16+03:00,0,1438,bonsai: preserve original tessellation edges from the CGAL kernel,descendant
+fix-586-sphere-mapping,56b1406fff208a2e6e6250c8eef49d57d170d31b,2026-07-21T19:55:25+03:00,0,1511,ifcgeom: map IfcSphericalSurface so advanced-brep spheres render (#586),descendant
+fix-5898-extrusion-edge,f4dba8bd38d2cbbf4079fcaac6e605acd76b7588,2026-07-11T08:12:54+03:00,0,1340,Bonsai: pick the true sweep edge in detect_extrusion_edge (#5898),descendant
+fix-6102-nested-site-local-placement,d76005745cd8bf26355ef0168251cd2a19554cdd,2026-07-25T08:34:33+03:00,0,1583,ifcgeom: fix --site-local-placement with nested IfcSites #6102,descendant
+fix-6125-nonmanifold-volume,62257e0aff0d8d89e9f20cf976ae09de023e9064,2026-07-29T18:11:02+03:00,0,1587,util.shape.is_manifold: single-pass edge-orientation check per aothms's review,descendant
+fix-6134-annotation-text-refresh,09313eac402ca48774139aa6f8211e185f7b7ce3,2026-07-16T14:41:22+03:00,0,1438,Bonsai: tolerate an already-removed mesh/curve/camera data-block in delete_data (#5793),descendant
+fix-620-616-nonmanifold-subtraction,6ba38bfeb9e14d77eab18bc931a64c9329e93379,2026-07-11T20:16:05+03:00,0,1366,ifcgeom: recover BRepCheck-valid non-manifold subtractions instead of dropping them #620 #616,descendant
+fix-6259-profile-curve-branch,011610863fe092722aeebec939066b1fd6471112,2026-07-16T13:27:48+03:00,0,1438,bonsai: catch kernel RuntimeError when finishing an arbitrary profile edit (#6259),descendant
+fix-6274-wall-join-2d,99f2a0c1e8dc61cc584d4ed4039c705ff5e7d008,2026-07-16T13:13:54+03:00,0,1438,"bonsai(drawing): join mitred wall/slab linework by actual layer materials, not LayerSetName (#6274)",descendant
+fix-6354-colourscheme-save-load,bec61d6d2c0367146c898f7fa806e9f817980b01,2026-07-16T13:40:20+03:00,0,1438,Bonsai: persist colour-by-property Pset selection across save/reload,descendant
+fix-6391-opening-exception-fallback,bf5548f8f65fdb0ee25b359559a279a08d0b1919,2026-07-20T15:06:07+03:00,0,1509,ifcgeom: keep unopened geometry when opening subtraction throws a non-std::exception (#6391),descendant
+fix-6409-nan-token,8c91b447f9ff9f06333ff4eb04161f4a359cdb7d,2026-07-20T01:22:56+03:00,0,1492,IfcParse: read back non-finite REALs serialized with a trailing dot #6409,descendant
+fix-6488-docker-latest-tag,761f9a315515d950024105dd062fc3dab80a0a7a,2026-07-25T08:18:00+03:00,0,1583,ci: push the latest tag when publishing the docker image,descendant
+fix-6557-fall-annotation-z,71f761aa6c5a084837d565eeab71b7e55f9193c8,2026-07-16T19:03:37+03:00,0,1451,Bonsai: preserve Z when editing FALL/slope annotation curves (#6557),descendant
+fix-6607-layerset-fallback,1b57803d8237c718beb95b7a567d10bfbf3cc678,2026-07-11T21:06:29+03:00,0,1366,ifcgeom: fall back to unsliced representation when layerset slicing fails #6607,descendant
+fix-6663-linked-aggregate-duplicate,99b2aef1bd24f0d6c070842b5e716df5f6ce8f7b,2026-07-16T14:50:41+03:00,0,1438,Fix #6663: keep a duplicated nested aggregate inside its parent aggregate,descendant
+fix-6693-import-item-none-geometry,69479155fd68ff2be3cdf8ed453afdfd2a1df585,2026-07-16T15:12:36+03:00,0,1439,Bonsai: fix UnboundLocalError when a None-geometry item is a SweptAreaSolid,descendant
+fix-6728-covering-qto-mismatch,1bcd7d2fc6f42176afed76843da1ad1daea7c885,2026-07-23T11:33:58+03:00,0,1525,Fix IfcCovering Qto_CoveringBaseQuantities mismatch between calculators (#6728),descendant
+fix-6761-pipe-boolean-qto,90554f43ce8249d1c4bd7569f0c9aedc69443425,2026-07-11T15:34:41+03:00,0,1349,Derive pipe segment length through boolean-clipped bodies (#6761),descendant
+fix-6895-shape-elevation-guard,86de6c27d6d5e943c54de70010abe230a686cc9d,2026-07-21T11:37:41+03:00,0,1511,ifcopenshell.util.shape: guard elevation helpers against unbounded geometry,descendant
+fix-6904-occ-iterator-leak,4a71ebdece3ce5f341dd22a332bd1f2124f00235,2026-07-11T20:05:54+03:00,0,1366,ifcopenshell: fix geom.iterator memory growth on the OCC path #6904,descendant
+fix-6930-open-profile-loop,c73409e4ca0afd86e0623bcd0ea7378940942819,2026-07-16T15:00:02+03:00,0,1438,Bonsai: fix missing closing edge when importing a closed IfcPolyline profile for editing (#6930),descendant
+fix-6996-itemmode-shear,77d7d6dcdc88533713053d36cbf2c721b56d5e49,2026-07-11T15:49:36+03:00,0,1349,Bonsai: re-orthonormalize item placement in Item Mode (#6996),descendant
+fix-7154-aggregate-cycle,0d2736be4f4e9525f74e514f631c10b93f480c69,2026-07-11T19:14:14+03:00,0,1350,Apply Black formatting to assign_object.py to green ci-lint (#7154),descendant
+fix-7167-activate-drawing-from-sheet,281f4045ffd69efa7007dace7d41b3283b5179e2,2026-07-16T12:33:28+03:00,0,1438,Bonsai: fix Activate Drawing crash for punctuated drawing names,descendant
+fix-7231-cad-fillet-tooltip,794d6dd7fe1d786a59023e3fbccf75175dd3f39c,2026-07-16T16:33:32+03:00,0,1438,Bonsai: fix mismatched Fillet tooltip in CAD tool for plain mesh edit mode,descendant
+fix-7261-append-empty-tuple,a2dd7056489ce78234a9a786185d48a80b49c872,2026-07-11T15:27:02+03:00,0,1349,Guard append_asset against an empty aggregate attribute (#7261),descendant
+fix-7318-bcf-gp-strokes,ce198ff8f2900867af2a855a9b0a5876d78b92b5,2026-07-26T09:50:11+03:00,0,1585,Merge branch 'v0.8.0' into fix-7318-bcf-gp-strokes,descendant
+fix-7413-builddeps-exit,f98b64e545763aa7d593cb05dcf2a315293bf551,2026-07-25T08:17:22+03:00,0,1583,win: do not close the calling console when build-deps.cmd finishes,descendant
+fix-7450-section-level-sync,2c6082d94ce90df29c88a419c921284f09428a73,2026-07-16T16:56:55+03:00,0,1438,Bonsai: stop deleting manually-created Level (Section) annotations,descendant
+fix-7461-msvc-lnk1248-docs,534cef626e9fd3ae24b045dcdedc03b8150b9ac1,2026-07-25T08:21:53+03:00,0,1583,win: document LNK1248 causes and the USE_CCACHE escape hatch,descendant
+fix-7658-curved-loft,a1d1a2a6157b97db52c2294bc73b68162e6ea4ed,2026-07-11T11:03:50+03:00,0,1349,Loft constant curved cross sections instead of crashing (#7658),descendant
+fix-790-gltf-group-node-names,df0af3a65a365bbda9b9bb8bdb433d2397629be2,2026-07-25T08:21:21+03:00,0,1584,"GltfSerializer: opt-in --gltf-extras with GlobalId, type and name",descendant
+fix-8036-drawing-none-doc,1eaaa4363dd6e10681f66239748331b3b40a58b9,2026-07-11T15:26:11+03:00,0,1349,Bonsai: guard drawing with no document reference in get_sheet_references (#8036),descendant
+fix-8043-boundary-loop-closing-edge,c34a6ddac60b23a8e3ddabc00b3fe618ab526d7e,2026-08-18T00:06:27+02:00,0,2868,Bonsai: add regression test for closed IfcPolyline loop conversion,descendant
+fix-8045-blank-name-dedup,daa5800e743ee493ac7d8d98a15c11d24efc209f,2026-07-11T10:52:34+03:00,0,1349,Do not deduplicate appended assets by a blank name (#8045),descendant
+fix-8108-solidwall-conversion,4354a8f15f891d4a03db274e3e784686db2778c0,2026-07-17T06:50:11+03:00,0,1451,Bonsai: convert a solid IfcWall to a real parametric wall (#8108),descendant
+fix-8162-append-group,eb9591e9a2c155c3e89ed08b45fc7c74925d005f,2026-07-11T09:13:38+03:00,0,1349,Support appending IfcGroup assets via project.append_asset (#8162),descendant
+fix-8400-directrix-hang,d0535307430ec0d2af7c1e15268ba2e605e9250e,2026-07-19T07:13:40+03:00,0,1367,ifcgeom: butt-join near-tangent sweep corners instead of hanging #8400,descendant
+fix-8861-cgal-no-normals-obj,17011c7bcce48130566e06f75ca25d99cdd53a88,2026-07-22T12:46:38+03:00,0,1517,Fix --no-normals ignored by CGAL kernel for OBJ output (#8861),descendant
+fix-ci-compile-test,1f6e350b4ccecfdbca4e38dd22fe2cc7cae327b8,2026-07-24T08:08:41+03:00,0,1527,"ci: drop toposort/igraph install, no longer needed after #8527",descendant
+fix-ci-streaming-wallopening-bsdd,2b5834fd80475f6c92fa67e5d5cbfa50876ee910,2026-07-23T07:55:27+03:00,0,1523,"ci: drop the ColumnPSetsOfSets.ifc fixture change, conflicts upstream",descendant
+fix-layer3-slab-horizontal-profile-edit,3a98019aadb59c79973492f402cfb5ebc984668a,2026-07-07T08:32:15-05:00,0,1324,Fix horizontal profile editing for sloped LAYER3 slabs,descendant
+fix-mergeduplicatetypes-null-and-crossclass,684ec6432362efc8949dab19e2e457fb4d95c08f,2026-07-15T16:20:52-05:00,0,1437,ifcpatch: fix MergeDuplicateTypes destroying distinct/cross-class types,descendant
+fix-missing-py39,ec1329443063b803f53a63f1b48e9e04d55f990f,2025-05-08T08:37:41+02:00,1750,0,python39 compatibility,ancestor
+fix-missing-yacc,a8ba1d1361c7c8650fb0b012431687034191f754,2025-09-26T19:36:12+05:00,581,29,build_osx - separate arm64 ccache to avoid override,diverged
+fix-obj-serializer-texcoord-material,c85bf905587365957d1c1c5e5d1f8e560b0d06c7,2026-07-11T18:34:22+03:00,0,1349,Correct OBJ texture-coordinate indices (#8457),descendant
+fix-remove-floating-map-representation,fcb382f46cc53728358ea0a748df8d67718a9be4,2026-08-01T09:11:32-05:00,0,1592,Bonsai: remove_representation handles occurrence reps mapped to a floating map,descendant
+fix-snap-obj-stale-reference,2cb9ff694670a8c8ea3f53cb3e7cb5066c399fe5,2026-05-29T07:49:44-05:00,0,1033,fix 8119: Fix ReferenceError in snap object cache lookup,descendant
+fix-snap-stale-object-reference,3248cc75804c81671317141cf977dfa381901b88,2026-06-25T11:45:38-05:00,0,1239,Fix stale object reference crash in measure tool snapping,descendant
+fix/7419-undo-assign-class-crash,0222cfd5691d46b80f8dc045184d14ef45745527,2026-03-22T13:53:56+11:00,0,772,Fix crash after undo of assign_class on macOS (#7419),descendant
+fix/8570-ifc5d-ifcspace-qto,b0d6134dd9612db61fcc722461c4270286a3e8e2,2026-07-13T06:27:17+03:00,0,1384,Fix #8570: populate ifc5d IfcOpenShell QTO formulas for IfcSpace,descendant
+fix/binary-token-uncaught-exception,1156a5512b4b8f645f853eca7f0893d05da06ec1,2026-07-16T22:41:03+01:00,0,1453,IfcParse: don't let a malformed binary token abort the parser,descendant
+fix/cardinal-point-none-crash,a337727d687f0025f7d3696669077a2a3dbef8b3,2026-04-29T10:00:35-05:00,0,949,Fix #8024 - Fix TypeError when CardinalPoint is None,descendant
+fix/cgal6-point-comparator,2857302022881c66310be0afc537b990480b2696,2026-06-05T12:50:35+01:00,0,1077,Use std::lexicographical_compare in Point_d_4d_Less,descendant
+fix/ci-bonsai-assign-class-view-layer-and-material-usage,59ac885fec65e23f57ccaed04e06bd2d19ae2309,2026-07-23T11:41:31+03:00,0,1387,ci: retrigger PR head sync,descendant
+fix/ci-bonsai-bdd-operatorspy-mep,9ec6534be131e74214f6e4f10af8c76970f9422e,2026-07-12T22:50:08+03:00,0,1377,Fix ci-bonsai-daily BDD: OperatorSpy.bl_rna + stale MEP port name,descendant
+fix/ci-bonsai-bsdd-stub-clobber,a1367c6623b99cffcccdf2e58219b9bf27d95c94,2026-07-12T22:52:32+03:00,0,1377,Fix ci-bonsai-daily: get_dictionaries no longer clobbers injected client,descendant
+fix/ci-bonsai-choco-blenderbim-rename,58e2782623f45ead28c1a6a7542ed3167cef40b0,2026-07-16T18:19:58+03:00,0,1451,Fix ci-bonsai-choco: choco_release.py still targets the old choco/blenderbim path,descendant
+fix/ci-bonsai-classification-honor-obj-arg,6080409c638c041946e3f85af82b791d1b6bd795,2026-07-12T22:52:08+03:00,0,1377,Fix ci-bonsai-daily: classification operators honor obj argument,descendant
+fix/ci-bonsai-clipbox-caps-loading-guard,c2c185f7c5011d8554552247631588372e974b8a,2026-07-13T06:38:01+03:00,0,1384,Fix ci-bonsai-daily: guard on_depsgraph_update_caps during file load,descendant
+fix/ci-bonsai-daily-checkout-path,e841defbd3388c544c5eee12eb97783102e404a1,2026-07-23T07:50:42+03:00,0,1522,Fix ci-bonsai-daily: avoid tripled repo path in BDD link_ifc tests,descendant
+fix/ci-bonsai-ifcgit-mergetool-mock,627c24ec50816cfe2d05511121fc6943a00c3d89,2026-07-13T06:37:39+03:00,0,1384,Fix ci-bonsai-daily: configure unmerged_blobs mock in git_mergetool tests,descendant
+fix/ci-bonsai-project-geomslice-skiphidden,a197a1b9093fad4df7886ebdefad3ba19d7655a4,2026-07-12T22:25:26+03:00,0,1377,Fix ci-bonsai-daily: get_linked_element_geom_slice uses hidden-shifted index space,descendant
+fix/ci-bonsai-projectlibrary-dedup,bf788552cb7cb323b67aee9c104081bfe3d88ad6,2026-07-24T10:18:51+03:00,0,1388,Bonsai: fix EditProjectLibrary leaving stale declarations after reparenting,descendant
+fix/ci-bsdd-get-class-relations,29fb417f0902a58b2e6dfba74c135085fe38d472,2026-07-12T21:33:52+03:00,0,1377,Fix ci: test_get_class_relations calls wrong bSDD client method,descendant
+fix/ci-merge-projects-contexts,0e83b888a86124c173c7b291f9da853902091eeb,2026-04-10T00:47:12+01:00,0,910,bsdd: fix CI test failure by spacing API calls 3s apart,descendant
+fix/cpp-portability,680f29f284876bf3a0d8ff25487716f63ff1e591,2026-06-04T22:23:19+01:00,0,1076,Add missing standard library includes for self-sufficient headers,descendant
+fix/drawing-activation-stale-bbox,3d99ff709cfda576a6f099ca270c812a654dfefe,2026-03-19T12:10:34-05:00,0,720,Fix ReferenceError in update_bbox_accumulation,descendant
+fix/duplicate-assigns-to-product,df35a8954bd39ca0a4612a965b420a8e5f97a03a,2026-07-29T10:29:34-05:00,0,1350,Bonsai: hand the duplicated annotation to the duplicated product (#9049),descendant
+fix/duplicate-id-instance-leak,f16ba3d26e0de6f4b9e87a9bd5ad289a528fdd70,2026-07-21T22:22:46+01:00,0,1512,Fix leak of entities on duplicate #id,descendant
+fix/duplicate-opening-not-applied,bd934d9b8ec30c8dccc2de0c74fcdd36273fac5d,2026-06-07T18:09:36-05:00,0,1125,Fix #7948: Fix duplicate not applying openings to geometry,descendant
+fix/entity-leak-mid-parse-exception,6b39666bfa6c734b903b0acedb81886f079009c6,2026-07-21T22:21:06+01:00,0,1512,Fix leak of mid-parse entities when an exception escapes the scan loop,descendant
+fix/hdf5-shared-detection,be3e20474b98a757c74e37ddc6ad13ff35a70408,2026-06-04T22:31:48+01:00,0,1076,Fix HDF5 config-mode detection to use shared library when static is absent,descendant
+fix/ids-entity-filter-tuple-narrowing,8a0ef5ac80ae251ade61871b0c7afc7fe68948e1,2026-09-04T10:45:51-07:00,0,2993,ids: normalise Entity.filter() to always return a list,descendant
+fix/ifcviewer-system-wgpu-native,5d0f9bb9fa86500b053dabc280f3b8cb7cfaa7da,2026-08-19T22:06:43+01:00,0,2862,ifcviewer: support linking system-packaged wgpu-native and zstd,descendant
+fix/isolate-objects-select-all-context,d72c4007562dfa7ab8b57540dc928c2d7d891dab,2026-04-24T07:58:56-05:00,0,943,Fix #7999: Fix isolate_objects context for select_all op,descendant
+fix/layer3-composite-profile-outer-curve,526172b3410c7c6acc4ba9e9b1d9dd12e589d0d5,2026-04-01T11:50:05-05:00,0,822,Fix #7885: LAYER3 crash on IfcCompositeProfileDef,descendant
+fix/occt-shared-linkage,7845f8e8cda62d362fd2648d09f50a9f7f91d225,2026-08-22T08:19:27+10:00,0,2864,ci: build OCCT shared on Linux so plug-ins share one OCCT instance,descendant
+fix/occt-shared-linkage-v090,06c3b4f42f4b8dce77b95fcd80b40ef02d194ebd,2026-09-10T17:02:00+10:00,0,3097,ci: enable shared OCCT on the Linux builds,descendant
+fix/opening-element-body-context,b0246f76097b89813f9e32eae2cb01607d6f9afe,2026-07-10T21:56:15-05:00,0,1349,Fix IfcOpeningElement using wrong geometry context,descendant
+fix/reference-resolution-null-deref,3dd5f262f74353543117374576ff43ca7a875674,2026-07-18T00:45:55+01:00,0,1456,Fix null-pointer derefs in reference resolution,descendant
+fix/remove-drawing-corrupted,d538542fb1c89c9c3fa66f5187b8159f18506c45,2026-05-29T11:57:14-05:00,0,1035,Fix remove_drawing crash on corrupted drawing,descendant
+fix/rocksdb-shared-api,99cfa2bd567a5ef2ff96d86ba0d9843ea6bd68ea,2026-06-05T09:26:11+01:00,0,1077,"Use version preprocessor guards for RocksDB unique_ptr API, retain unique_ptr internally",descendant
+fix/schema-logger-thread-safety-race,632e3a264d52f9068440a44d63bca4b2c6678c3d,2026-08-27T22:29:38+01:00,0,2913,Fix data races in schema singleton init and logger causing crashes,descendant
+fix/section-annotation-model-view,9663fc87e3db309e8a156ea73d7411bd48bcd027,2026-04-18T12:55:52-05:00,0,938,Fix #7927: Fix SECTION annotation for MODEL_VIEW drawings,descendant
+fix/select-similar-pset-spaces,74600376022aa3f44c1fbaf0df36752e9ee560e1,2026-03-11T21:39:15-05:00,0,620,Fix #7774: Fix Select Similar failing on pset names with spaces,descendant
+fix/snap-degenerate-edge-crash,25dc8c3518b5e1c71f3d01f991bea51efc37599a,2026-04-02T10:56:56-05:00,0,850,Fix TypeError in ray_cast_by_proximity_2d degenerate edge,descendant
+fix/spfheader-null-reference,92f9bd593895abd6d747e42864fa92194f5c4ed2,2026-07-18T00:39:25+01:00,0,1456,Fix null reference bind in header parsing,descendant
+fix/spflexer-header-leak-raii,0e94c69087f73c57e01193eae3535f1d8d7ff4e3,2026-07-19T21:21:27+01:00,0,1457,Simplify tokens_owner cleanup in read_from_stream per review,descendant
+fix/svg-serializer-skip-failed-elements,e5cf83df6e37f5866d07df8a407dbcbf79310e9f,2026-08-27T22:29:54+01:00,0,2913,svg_serializer: skip elements that fail geometry conversion,descendant
+fix/unterminated-string-eof-abort,aa1a8932854ce7fce271a32909ed8b31cb49968d,2026-07-16T22:42:58+01:00,0,1453,IfcParse: don't abort when a string literal runs off the end of the file,descendant
+fix/vertical-segment-api-bugs,4043037484bb77dfe916de63248b6e721d56de9f,2026-03-13T10:00:35-06:00,0,587,style: Apply Black formatting to root/operator.py,descendant
+fix/win-runtime-plugin-collection,588557ae00c5bc1399ea12e420bc7cfd646a7b72,2026-08-14T21:31:53-06:00,0,2842,win: collect underscore-prefixed runtime plugin DLLs in build artifacts,descendant
+fix_6334,7864657f88b0bbb6604807ee3b752a9a267d0fdc,2025-11-30T15:53:42-06:00,0,37,Fix #6334: Preserve annotation vertex order during subdivision to prevent arrow/text flip,descendant
+fix_6931,5285df13ecb9b56377d6b7a56fd04dcc55bf62a2,2026-07-15T15:10:17-05:00,0,1398,Resolve mapped/boolean items in unassign_representation_item_style #6931,descendant
+fix_drawing_camera_rebuild,dff9e7d1c2ee329920d09ebe9756554a2e9ab856,2026-08-16T21:01:09-05:00,0,1605,Don't call transform_apply on cameras in Geometry.clear_scale,descendant
+fix_for_7296,0a50ff6ceb7dd8069fefc98c8fa39359608b8132,2025-10-28T12:01:39-05:00,236,1,fix for #7296: handle openings without Blender representation in get_gross_top_area,diverged
+font_scale,6247fb3cdfa4fcb930b190b7d26906104b3959ab,2024-06-01T15:41:46-05:00,9242,1,keep font scaled correctly when changing drawing width and height,diverged
+generalize_layer_set_class_and_method_names,8cc9678862b0c4b0edb45602565d61c87e7e50a8,2026-02-22T09:45:26-06:00,0,538,refactor: generalize layer set class and method names Rename wall/slab-specific identifiers to layer-direction-neutral equivalents:,descendant
+geom_iterator_reuse_repr,fbff8b8170f4ce21b2fd7374cf796216ddaa9c69,2024-06-07T14:15:16+05:00,9196,1,geometry iterator to reuse representations in more cases,diverged
+grab-selects-array,ef055669b470dc3a8f2075d0eaaea2eaa003cfca,2026-07-19T13:54:43-05:00,0,1491,Fix #6652: Extend grab selection to include BBIM_Array members,descendant
+grid_issues,60063ac1c7b165b1dc94a7690ab9a72e654278d3,2026-07-10T19:22:03-05:00,0,1353,Add tests for IfcGridAxis fixes,descendant
+hdf5,acddbfd18c66f26c481a2e3ad92ff7b086536095,2021-07-10T16:08:23+02:00,15610,0,Update .travis.yml,ancestor
+ifc_cli,b709f355ae3ab1e07fd4721f37d8701341890a24,2026-03-23T23:41:17Z,0,549,"README and pyproject.toml fixes for ifcquery, ifcedit, ifcmcp",descendant
+ifccsv-6937-dotted-pset-name,941a87e8a9e42db340769df24dc679d23497f689,2026-07-21T11:27:20+03:00,0,1511,selector: fail safe instead of silently corrupting on ambiguous dotted keys,descendant
+ifccsv_enum,8f34752141fa5b90b988dcdc3d3bdb6f7c417165,2024-05-06T18:56:26+05:00,9515,1,ifccsv - support importing enum properties,diverged
+ifcgeomserver-chrono,2d099edbeaae26f065b18a207461106b6d644b24,2025-11-18T18:08:58+05:00,62,2,IfcGeomServer cmake - remove not required `chrono` component,diverged
+ifcgit-features,ca6e9504968cd1097df4bccd7de12a49ba43faa7,2026-04-03T13:28:14+01:00,0,857,ifcgit: conflict report panel and dry-run merge preview,descendant
+ifcmax/initial-refresh,16566f176607443d838d7401615f3c69728e8201,2026-07-16T08:03:29+02:00,0,1509,Merge branch 'v0.8.0' into ifcmax/initial-refresh,descendant
+ifcmcp-tool-descriptions-single-source,8f890868b575376f4917723148b117da1e13ac09,2026-08-02T14:45:20+01:00,0,1594,ifcmcp: source tool descriptions from ifcquery/ifcedit instead of duplicating them,descendant
+ifcopenhouse-ifc4-fix,567f74ad2de76d17a9e94f69a07aebcc2ea0940d,2024-02-07T15:35:13+05:00,10136,1,Fix issue building IfcOpenHouse for IFC4,diverged
+ifcparse-954-x2-surrogates,afd7b81f0c5c482d5c1ef5e2d1c94df948371de8,2026-07-20T12:50:43+03:00,0,1509,ifcparse: combine UTF-16 surrogate pairs in \X2\ escapes,descendant
+ifcpatch-general-arrangement-drawings,caf295765b61633466410cb2d63dd456e64c7af7,2026-09-12T22:18:52+01:00,0,3097,ifcpatch: add GenerateGeneralArrangementDrawings recipe,descendant
+ifcsverchok-6741-api-drift,6ec59ccf2f42ef69abcf6da91e15b64a4e4f2206,2026-07-21T13:07:07+03:00,0,1511,ifcsverchok: recognize sverchok-master installs and fix stale unassign API calls,descendant
+ifcsverchok-6809-file-socket,a7889a17d321e67e239966578af4a007bb4884f6,2026-07-21T12:09:54+03:00,0,1511,ifcsverchok: document the active-file workflow for querying an existing IFC,descendant
+ifcviewer,9f2f1954f3805757f0576139379a1ad6acc8b5ae,2026-05-11T12:57:34+10:00,0,1176,Interface mockup 17,descendant
+ifcviewer-wgpu-py313-test,3c717026ce235bd94e4f4e7c7b56472e412d4dce,2026-08-04T22:02:21+05:00,0,2718,ifcwrap/cmake: add missing `geometry_serializer` runtime target installation,descendant
+ifcviewer2,dd902bf0f8cee5be4e791adde774ce5fe63346ab,2026-05-26T13:36:03+10:00,0,1271,Use fixed overlay text font,descendant
+infra-sweeps-2,cbaeda5e04aa3185aee651033ef57cc7db7ad1b2,2024-03-15T20:10:34+01:00,11924,2,Fix compilation for 4x2,diverged
+inset_section_endpoints,738110bed79bb66f97f4e26704d1d301fec460f7,2026-05-21T19:16:18-05:00,0,995,Merge parametric_dimensions (PR #8083) to resolve build conflict,descendant
+install_git_ifcmerge,86e6a274173f67079223a8cc5358acf96ef914ef,2025-01-18T10:06:49Z,3067,4,Use os.pathsep instead of hand-rolled equivalent,diverged
+inverse-index-delta,53a48616fa54c5e863843e6cc9ad7eb27ddbb5fb,2026-09-10T07:31:56+10:00,0,3038,ifcparse: unregister a deleted instance's inverse records via its attributes,descendant
+inverse-index-remove-source,938442303f7bf333bd45d0d791bbe08c90e3d6de,2026-09-09T19:08:01+10:00,0,3038,ifcparse: unregister a deleted instance's inverse records via its attributes,descendant
+is_attr_type_fix_5656,7324410dd57d565540fd4ba5795f4e0b75323192,2024-10-30T08:46:50+01:00,3661,1,Update unit.py,diverged
+issue-143-psr-style-aware-folding,8665725eb6c1a45c5a40635fa6cb8fc7318bdadf,2026-07-21T16:57:51+03:00,0,1511,IfcGeom: make permissive-shape-reuse folding style and instance aware,descendant
+issue-7178-clash-feet-units,e6489c2d9ae865abc84832cb9c15072904f16414,2026-07-20T17:44:22+03:00,0,1509,Bonsai: fix clash pin drifting away when a false origin is active,descendant
+issue-950-bcf-report,be35a62dc793013b1873728ff9a44e475151cdb5,2026-07-25T08:39:05+03:00,0,1583,bcf: add spreadsheet report exporter for topics,descendant
+keep_selected_objects_selected_when_switching_drawings,2f90a86e13373fd523a689294f411539925600ed,2024-06-02T09:04:12-05:00,9322,3,delete commented,diverged
+layer2-agnostic-parametric-tools,e7fe85c6237565849113874bfa64ec321a7920ad,2026-07-02T08:01:08-05:00,0,1275,"Make wall fillet corner IFC-class agnostic (LAYER2, not just IfcWall)",descendant
+light/gensky,40cc43a1c7d7b53ab207f39b3d2de3d0c27485d7,2024-08-08T10:49:23+05:30,4935,2,Ran Black Formatting,diverged
+light/newUI,ac18195361cb2eb476a2cd8603ad3c183eccc99a,2026-04-14T07:59:14-05:00,0,951,Merge v0.8.0 into light/newUI,descendant
+light/radiance,3613c4e0594b9dcc1302c7fd23c20cbdfd9afa00,2024-09-01T14:07:52+05:30,4533,9,Added HDR output file format,diverged
+linked_aggregate_operator_from_panel,1110f0cffb10e083cc836ba38983d7921107fa5a,2024-05-07T21:00:03-03:00,9497,0,Merge branch 'v0.7.0' into linked_aggregate_operator_from_panel,ancestor
+linter-ci,91a54be2c9dff8e299f9d3ed0a2257218ff6b4ab,2025-06-18T13:52:38+05:00,1422,2,linter github workflow - use uv for acquiring black,diverged
+mac-start-bonsai,d129fe286350ee8156a06bd7b74419dd7480e1a9,2025-07-29T20:10:42+05:00,1063,2,Bonsai Mac app - allow to be called without arguments,diverged
+macos-intel-debug,e9d003c22f1348bf51019439b09d054ed849602c,2025-10-30T19:20:37+05:00,235,7,clear cgal cache,diverged
+master,0edfb0e791e102376f4d0cf02078b992c5e8c7db,2024-04-18T21:04:02+02:00,9208,0,Settings rework for plan/model/context and interfacing with python,ancestor
+measure_in_edit_mode,565ae33c171c5dc2b58d71b1d222ab60749a8010,2026-04-26T17:41:12-05:00,0,949,Closes #7691: Enable bim.measure_tool in edit mode,descendant
+occurrence-representations,d0ebdd53c966c147280e9a5087bb3b987b4b8468,2026-08-01T08:33:18-05:00,0,1318,Bonsai: normalize occurrence-local representations onto the type,descendant
+offset_copy_toggle,0d39a21bf45ad04f5914d5ca8beb0d1e9bd2ed49,2026-06-12T14:02:44-05:00,0,1169,closes #6235 - Add copy toggle to CAD offset,descendant
+open-perf,db71cb397131cab9ce1b832dabda75276efc78e3,2026-09-13T19:54:13+10:00,0,3109,ifcparse: inline the tokenizer's hot helpers and the paged cursor check,descendant
+open-perf-reader,079593024433af583c1a6cba6a3cc0311e3b2eef,2026-09-11T19:45:12+10:00,0,3098,ifcparse: inline the file reader accessors and pre-size the inverse index,descendant
+opening-template-on-type,c0b7f37fa016dda57157b0b187c3474a5978f50d,2026-07-06T09:49:06-05:00,0,1317,Merge 'select-by-representation-type' (#7916) as ancestor for build (re-apply post-rebase),descendant
+ordinate_dimensioning,bea4f2c3647c216b5dfe1dc79331379db7f7a942,2026-05-15T10:20:02-05:00,0,974,Closes #8063: ordinate dimensioning,descendant
+orientation_slots,dbe2c541c72163b029be86ec41fc054faa748d2e,2025-03-22T08:40:20Z,2439,8,Orientation slot feature now has limited scope,diverged
+parametric_dimensions,253a6c56a1e67eb52cabe64ba11d6a55a5b90f1a,2026-08-15T13:48:46-05:00,0,1646,Fix dimension text rendering upside-down when drawn right-to-left,descendant
+perf-6712-mapped-items-parser,eca82d1d186c549b81c032de7416d9f970c1f84e,2026-07-21T14:41:22+03:00,0,1512,IfcGeom: make no-parallel-mapping and permissive-shape-reuse usable with threads #6712,descendant
+poe-test,f8326feae3932fd21805cad40de08d946a96a4e1,2025-10-28T18:14:13+05:00,240,1,Exclude build-all.py from main ruff check,diverged
+points-vertex-representations-v080,df1ababbec38aa0e54ef69ecbc03562b584b6a59,2026-07-21T23:07:34+03:00,0,1514,test: add IfcConvert end-to-end coverage for point/vertex representations,descendant
+pr_1307_small_fixes,87296dbd1171451cbf7ec4fdadc614496498151b,2021-03-08T14:28:28+01:00,16246,17,Use BUILD_PACKAGE option,diverged
+pr_3945_rebased,248f969520666146a8d414527fcd8ce3c5a276ed,2023-10-27T20:50:44+02:00,12079,4,Implements framework for adjusting geometry based on location of start point of next segment.,diverged
+prefiltering_circles_issue,6f6175c8c5de0d6ea75e4e121494bd2c00fed981,2024-02-15T14:04:21+05:00,10102,1,IfcGeom::util::is_manifold not to consider circles as manifold #4283,diverged
+preserve-local-view-aggregate-exit,cc1b4a06e4c649e4b07c6ed67e9047102bc10c52,2026-04-19T12:18:33-05:00,0,938,Fix #7969: Preserve local view on aggregate mode exit,descendant
+print_ifcspaces_in_projection,f5c22d97e9f49863ee4d592b769fd860dec95ffc,2026-07-10T22:40:19-05:00,0,1349,Show IfcSpace in projection drawings,descendant
+profile-length-per-instance,6ca69d20d9f38b561fb49b30b92e1e6441563835,2026-07-30T21:37:34-05:00,0,1443,dev-notes: record the material usage trap in should_map_representations,descendant
+pypi-publish-ifcquery-ifcedit-ifcmcp,d02e058e52e3c5dbafd69590228970fd86526c0c,2026-03-29T15:30:29+01:00,0,825,"ifcquery, ifcedit: update docs for --format ids and foreach subcommand",descendant
+python_wrapper,ba00526e1bcc8530d52ed802aa9f4f42f4af4c86,2014-11-05T18:15:27+01:00,19526,76,Update documentation for filename change,diverged
+qto_speed,345dad1ab43b035f0e09ba15a5c7643989f9f93f,2025-10-31T09:59:43-05:00,624,7,style: format src/ifc5d/ifc5d/qto.py with Black,diverged
+quantity_take_offs_in_si_units,9bdb94380fca0d122b4c12a0fc2829f8cbc9c728,2024-02-04T11:00:53-06:00,10334,2,calculate quantities based on either object mode or edit mode,diverged
+rab_IfcAxis2PlacementLinear_fix,b75a689bffac68bee3b404dd9a3c9a61b9c682da,2026-06-10T12:20:21-07:00,0,1036,Updates IfcAxis2PlacementLinear and matrix4::init per @aothms suggestions,descendant
+rab_IfcImageTexture,c031a0edf45e3d61ee3f7ebaa2e2765574d8ae38,2026-04-20T07:26:40-07:00,0,939,Add import hashlib and formatted with black,descendant
+rab_alignment_modeling_experiments,edfcdbb86520b8fa97b3ab335eb5d97b6205d63b,2025-05-15T10:19:19-07:00,1676,1,Playing with input panels for alignment,diverged
+rab_infrastructure,de54852aeed61f312cb3a31f982e050b59aaf42e,2026-09-11T12:34:29-07:00,0,3099,WIP infra editing,descendant
+radiance_addon,6503d666ae5bebff3f5178c3edc5417cd7821556,2024-08-01T19:37:49+05:30,5024,5,Implemented Gensky,diverged
+reallow-bonsai-without-brickschema,eabe2e48188c3c961f93c0a90a7e29e6ee2d94ed,2026-09-12T13:57:46+01:00,0,3117,Reallow Bonsai without brickschema,descendant
+reference-drawing-view-title-scale,0b71ffea32f5c882be658f23953801726f5d0d38,2026-04-25T07:35:24-05:00,0,949,Closes #7877:Add scale to reference view-title from SVG class,descendant
+regenerate_wall_to_underside,bfb4312906bcbeb6dfa9bc7bd044cd5e2d593b5a,2026-06-01T07:19:26-05:00,0,1071,Add has_underside_connection method to Model class and update wall regeneration logic,descendant
+remove_triangulation,69138648502c4845aebda252b8e77c6d4d7dae57,2023-08-09T16:37:48+05:00,11362,1,Remove triangulation on switch_representation,diverged
+replace-element-set-dedup,92f9dc9d606fe680bdc4e64957257cbb3ecde6ef,2026-07-20T15:54:59+03:00,0,1509,ifcopenshell.util.element: dedupe SET-typed attributes in replace_attribute,descendant
+repro-boolean-operand-failure,be1ccbc88c5158bf05f74604f93fc773cf976513,2026-07-20T18:19:35+03:00,0,1509,ifcgeom: fail the whole boolean when CGAL's base operand can't be preprocessed,descendant
+revert-5053-v0.7.0,9658ccb16ca2a653211b68dc75c16cf713ff4ba8,2024-07-22T10:38:34+10:00,9186,4,"Revert ""Fix georeferencing HTML URL""",diverged
+revert-5056-revert-5053-v0.7.0,68cc6aba33c54027f3b18d9995bc8e045e2c7b49,2024-07-22T10:39:25+10:00,9186,5,"Revert ""Revert ""Fix georeferencing HTML URL""""",diverged
+rickbrice-simplify-lp-axis,740f0f8629988fb19aa1921ec9810a46bab80109,2026-03-17T20:50:27+01:00,0,723,"Simplifies IfxAxis2PlacementLinear, assumes default Axis = (0,0,1)",descendant
+right_click_material_to_material_ui_select,057343c7a8d954e6219789548b751a7d7154cd59,2025-03-09T09:23:23-05:00,2308,1,first stab,diverged
+rotated_slab,7c738c15d927e926ba05b31ef09b852c07ce04f2,2026-03-14T12:21:54-05:00,0,686,Fix slab layer geometry for rotated and angled slabs,descendant
+saikei,0b3967609c3664a62e486b215d9dee893412b2d7,2026-03-03T13:39:19-07:00,0,583,"fix: Address PR #7589 review items - prefix rename, cleanup, copyright",descendant
+select-by-representation-type,f59942c453e6b5939b46a3b0ef7001200d0adab8,2026-04-07T10:10:42-05:00,0,890,Helps with #7853: Select objects by RepresentationType from panel,descendant
+select_aggregates_and_parts_within,d64d1a52351e11a6a631938933fdacb40f3b242a,2024-03-16T20:02:33-05:00,9945,1,"shift + bim.select_aggregate = Selects all related aggregates from a selection set, and parts within. shift + bim.select_linked_aggregates = Selects all related aggregates, and parts within.",diverged
+select_aggregates_and_parts_within_2,004f82a0b66fc541226edbfea52917953bc048cb,2024-04-18T21:06:24-05:00,9676,2,incorporate @brunoperdigao's suggestion https://github.com/IfcOpenShell/IfcOpenShell/pull/4552#discussion_r1571519262,diverged
+select_objects_with_similar_psets_and_attributes,59b5bd93394ca10006f49d1001af8ec751602dbb,2024-05-04T13:53:58-05:00,9534,1,Can bim.select_similar from the pset or attribute panels,diverged
+selector-unquoted-decimal,f7937aa29916f8f1b74322a731455e0f2eae0754,2026-09-09T20:37:02+01:00,0,3094,Accept an unquoted decimal in a selector value,descendant
+separate_layers,7cd556bf6d0f50bdf3c0bbbdf9f43a18c12e271f,2026-02-20T19:56:57-06:00,0,331,Without 'Material.Name' layers merge.,descendant
+sheet-drawing-resize-anchor,dcb38f3ce0efce886bdd4c9e7f154846262a3f61,2026-04-24T20:47:06-05:00,0,943,Closes #7984: Resize sheet drawings from upper-left corner,descendant
+ship-2041-nested-qty,b6b310bce5eb8d02b5591236de457cb27bf298d2,2026-07-12T13:21:32+03:00,0,1368,Resolve nested complex quantity paths in the selector (#2041),descendant
+ship-2554-derived-unit,d9d56664cc571fd3511950ba5ec5ed142413c19e,2026-07-12T15:00:26+03:00,0,1368,Bonsai: implement Add Derived Unit in the units UI (#2554),descendant
+ship-3187-select,0279a5ab7c5f805b368d9509c29f8329bc15a8d0,2026-07-12T08:06:49+03:00,0,1368,express: include referencing SELECT types in typeof() (#3187),descendant
+ship-3381-circle-profile,6f59d0b9af5bc4a4fc62434fb43877c90fc9d175,2026-07-12T15:09:00+03:00,0,1368,Bonsai: support circle profiles when editing an extrusion profile (#3381),descendant
+ship-4399-toposort,b6658487d38432fefb433ca694e3efccccd0c501,2026-07-23T07:48:36+03:00,0,1522,ifcpatch: use stdlib graphlib for Optimise topological sort (#4399),descendant
+ship-4624-fulldocs,3d15f581d1e455bbe0d3dfbdd1caf5085fa116e2,2026-07-12T15:17:55+03:00,0,1371,util.doc: fix the same truncation in pset and property descriptions,descendant
+ship-5123-schedule-newlines,08dda6ab22fcf93ade1913c839abe6c38895cef4,2026-07-12T09:07:45+03:00,0,1368,Bonsai: keep newlines and multiple spaces in SVG schedules (#5123),descendant
+ship-5309-hidespaces,4d38c8ad18b9ce2c1a798d268138b6fb8b32db92,2026-07-12T09:14:04+03:00,0,1368,Bonsai: skip out-of-view-layer spaces in toggle_hide_spaces (#5309),descendant
+ship-5349-side-area,e1edad26f7f3b74ba2c28af5a425bfa806c8389a,2026-07-14T22:35:13+03:00,0,1424,Add opt-in winding-tolerant areas,descendant
+ship-5635-drawing-name,69d12aa87eeadc2a32ee1ba43860d8c43e26a210,2026-07-23T07:51:35+03:00,0,1522,Bonsai: uniquify drawing name on rename so SVGs don't overwrite (#5635),descendant
+ship-6393-mepbend,11d57874cfbad1d3d7cb178c5b08f04baa5762d5,2026-07-12T09:02:20+03:00,0,1368,Bonsai: guard MEP Add Bend against parallel segments (#6393),descendant
+ship-6407-curveset-edit,e5f7f3211a5e30a961eb6afad5ac5f759b49ed4a,2026-07-12T18:35:43+03:00,0,1377,Bonsai: support editing IfcGeometricCurveSet representation items (#6407),descendant
+ship-6481-parametric-profile,e1c0e7bfcfc3b787b33f7125d096ed620ceba682,2026-07-12T19:13:40+03:00,0,1377,Bonsai: preserve a parametric profile through an edit round trip (#6481),descendant
+ship-6676-usage-axis,2817009d5969a8cf2c9bdeb1be2c6d546b0d2a30,2026-07-12T10:16:38+03:00,0,1368,Bonsai: preserve material usage direction across a type change (#6676),descendant
+ship-6729-hidden-cols,2dfb9cdd6eb7802587e45488c40e80a13ead425a,2026-07-12T09:59:30+03:00,0,1368,Bonsai: don't render spreadsheet-hidden columns in schedules (#6729),descendant
+ship-6807-geomset-delete,58dc1f34ed0c4d1f893ea5dffbf33bbcfd9341ad,2026-07-12T15:05:41+03:00,0,1368,Bonsai: delete representation items nested in an IfcGeometricSet (#6807),descendant
+ship-6929-trimmedcurve,d472703b38402c91b074e83e9f945de196223f46,2026-07-12T08:22:53+03:00,0,1368,Bonsai: support IfcTrimmedCurve arc segments in profile edit (#6929),descendant
+ship-7061-shapely-linked,2cee95e2d4fce6517a6fc605074dadf9a80356d9,2026-07-12T19:06:43+03:00,0,1377,Bonsai: fix SHAPELY fill mode for linked projects in drawings (#7061),descendant
+ship-7412-pset-override,3a8facf01965050c13907a9435efab54330a519f,2026-07-12T08:37:44+03:00,0,1368,Bonsai: copy-property-to-selection must not edit the inherited type pset (#7412),descendant
+ship-7454-extend-guard,0ee86ac25edb51482afa2f79cbbb24f90fa26f0a,2026-07-23T11:05:01+03:00,0,1369,Bonsai: plain-language message for Extend To Underside guard (#7454),descendant
+ship-7624-directprofile,04db09f90a2d2376915d84f7e3a88d17cb083813,2026-07-12T18:42:18+03:00,0,1377,Bonsai: fix DirectProfileEdit crash exiting edit mode (#7624),descendant
+ship-7681-hideselect,298869616125e6acbd3b74674092fa8ac687ee72,2026-07-12T08:29:56+03:00,0,1368,"Bonsai: keep ""disable selection"" objects visible when activating a drawing (#7681)",descendant
+ship-8026-dup-context-import,bb35ec0982d787a4bd06a67a0c01c09f75e9225b,2026-07-26T09:49:59+03:00,0,1585,Merge branch 'v0.8.0' into ship-8026-dup-context-import,descendant
+ship-tester-webapp-hardening,a65a3014f52aa8d9f9a53849c4232c874da51b6e,2026-07-12T15:07:47+03:00,0,1368,Bonsai: diagnose IfcTester webapp startup failures instead of a dead tab,descendant
+si_unit_w_cad_tools,ac41a9e63a0a5ebc0010c55123a97d6d8a6ff9b6,2023-10-18T17:07:29-05:00,10724,0,allow SI with CAD tools.,ancestor
+slab_fix,d8da01c8771e84446ba483390746cde058630505,2026-01-11T17:39:54-06:00,0,311,fix #7537 - Layer thickness correct when slab is rotated and few other features...,descendant
+slab_issues,ae1c5444c31e02e85c96fab06677436baa74821b,2026-03-24T08:45:26-05:00,0,770,Fix inverted layer order for flipped slab direction,descendant
+small_snapping_fix,a136ca2d0dafb2225b8ac23af9b86fb41fcc95e6,2026-03-31T20:30:56-05:00,0,822,Fix #7878: Fix snapping crash with non-mesh objects,descendant
+space-regeneration-sloped-roof-clipped-extrusion,0e084f283063216cf069b54e00a85dc3c128dc78,2026-08-18T00:11:00+02:00,0,2885,Port space/boundary code to v0.9.0 API changes,descendant
+space_bar_edit_profile_directly,88371e59e408e06613fec168496652b002b0cb44,2025-11-16T14:58:25-06:00,105,7,small tweak,diverged
+split_profile_based_objects,f229ad5fd060ebdd4f2edc20b7a285ccdff2c0b4,2026-03-29T09:41:09-05:00,0,822,closes #3804: Add S_K split support for profile-based elements,descendant
+structural_mods,07745aa6bcdb916b88279fdaf68aa6309c762a5f,2023-04-27T13:26:47+02:00,12273,2,Fix #2998,diverged
+submodules-test,e8f18b5b6d08f9757380090de1c20f1fb4031449,2025-05-21T13:00:46+05:00,1646,1,ci-bonsai-daily - include submodules for a test,diverged
+sum_selected,cc90340b3bc85be3a53f9717d6e71ca3dcd76d1e,2024-10-26T14:22:18-05:00,3699,2,tweaked active operator,diverged
+sweep-1308-svg-data-area,2c6db3dd9585eba600d46367fe2099101bdc1216,2026-07-21T22:35:07+03:00,0,1511,SvgSerializer: emit IfcSpace area as a data-area attribute,descendant
+sweep-46-geom-normal-index,71c18a9ad19367140402aa6421be2049a8488b87,2026-07-21T16:20:55+03:00,0,1511,Serializers: index positions and normals independently in OBJ/DAE output,descendant
+sweep-473-default-material-inheritance,c424d1b48029c20b519cb9e53d52cc661a71ef66,2026-07-21T17:43:06+03:00,0,1511,ifcgeom: resolve default materials through the schema supertype chain (#473),descendant
+switch_camera_only,8c9e4bae2fa98e46c6fd2444ee86d94f7c2ec07b,2024-06-05T11:12:01-05:00,9206,3,Merge branch 'switch_camera_only' of https://github.com/IfcOpenShell/IfcOpenShell into switch_camera_only,diverged
+switchviews,c62ed5d3b6ab968927ab460b864eb285863abadc,2024-08-04T10:00:22-05:00,4983,2,"shift+click, to quickly switch the drawing view without turning anything on or off in the scene. as discussed: https://community.osarch.org/discussion/2196/quick-way-to-switch-between-drawing-views#latest",diverged
+test-ci,2fe491b7b5ca8340cf50bc27c8069ca8208bb530,2025-10-27T06:54:10+01:00,299,57,Merge remote-tracking branch 'origin/v0.8.0' into test-ci,diverged
+test-ci-temp,c8e1d53568935f07c05adc87778516b6b995eff1,2025-10-28T17:13:57+05:00,298,58,ci.yml - note on rtti in rocksdb,diverged
+test_mac_gpu_fix,05a3004ef04e94d6a31782e85b839d23e8ce9b46,2025-04-01T19:06:44+05:00,2050,2,test,diverged
+text_alignment,85ae25cd3ce3c069cee98f0e7da711c8c48f7e9f,2026-02-24T11:04:14-06:00,0,544,Import BoxAlignment into alignment props on edit enable,descendant
+tfk-chat-client,bab00dffc31ead93ec7b3bdc1c2abb3e4a6d7d6e,2026-02-20T21:23:58+01:00,0,510,Package ifcmcp as a HTML client-side chat app,descendant
+tfk-cli-plot,e42acdfa8643dbb7b412c9c68ac23fcf09dca2e5,2026-03-01T21:01:09+01:00,0,521,ifcquery plot subcommand,descendant
+tfk-fix-to_string-on-eof-marker-token,d5a56406d78c6745433ae702d42c03278a13639e,2026-09-10T10:03:36+02:00,0,3099,Merge branch 'v0.9.0' into tfk-fix-to_string-on-eof-marker-token,descendant
+tfk-ga-build-scripts,dd0792d06449fa94f30d55da4f5e3b52628bc3ef,2024-11-21T15:37:56+01:00,3437,2,Transfer build output repo,diverged
+tfk-infra-sweeps,6b58fc57118b5e793268c5e7ee80f74472c140bb,2024-03-14T10:24:18+01:00,11945,4,Move version definition below header include,diverged
+tfk-less-lark-in-quantify,e08af55c5a6e3c85ae6fee86e98da065f0093009,2025-09-14T14:57:17+02:00,641,1,ifc5d.quantify: lookup entity names directly; index into dict rather than iterate in simple cases,diverged
+tfk-pyodide-app-readme,1dca439ee314dc1463605373dcd37465232a16d3,2025-01-14T12:07:21+01:00,3067,2,Don't throw exception but set to $ when encountering invalid instance name #5680,diverged
+tfk-pyodide-build,b6bc8f8d1cc350de53f1dfc2c0f047ee20b0a8d4,2024-12-31T16:09:04+01:00,3200,11,debug,diverged
+tfk-rocksdb-storage,6ec12fe7c74e33873d91f4d8fff7b78f23957171,2025-09-11T18:38:07+02:00,668,0,":Revert ""Temporary Python 3.9 compatibility""",ancestor
+tfk-sectioned-surf,f09ca658f1e0f172a2fd6e9a306fa3fadf291896,2025-12-02T16:34:24+01:00,0,69,Initial investigation into lofting open profile with tags,descendant
+tfk-shared-pointer-storage,55657a5c0711da358ca08cfdd9ac9a33917c9e99,2024-05-22T13:03:27+02:00,6273,4,Rework memory mngmt,diverged
+tfk-unify-variant-storage,f40d1478304e7b7813fc78597adb13c9f84f8b57,2024-08-23T20:15:21+02:00,4683,33,Cheat,diverged
+tfk-virtual-inheritance-config,5cd799d4d17995991275b34b4eece801cc4be2a8,2025-02-02T09:00:49+01:00,2726,2,delete obsolete files,diverged
+tfk_svg_prefiltering,d017dd15756da86dba83eeae9c43d9188ece6920,2023-06-29T13:18:41+02:00,11788,3,Help swig not to trip over old occt handle definitions,diverged
+update_schedule_size_on_sheet,ebea19d4c260b02804ea02671831be32629cda32,2026-04-19T13:06:59-05:00,0,938,closes #5382: Add update_sheet_schedule_sizes to SheetBuilder,descendant
+v0.3.0,b2e8219caa793edadc5b798de625fa4fec49991e,2013-01-13T12:01:20Z,19550,15,Fix 3ds max API version detection,diverged
+v0.4.0,e39cbc6d0060c4bd2af4351aeb8432f57eab33d5,2015-06-21T16:14:37Z,19472,43,Fix ensure_fit_for_subtraction() function when input shape is a solid,diverged
+v0.6.0,b8d36a63a29f37193f52027b421607f7c37434ce,2021-09-24T10:25:22+02:00,15209,0,Bump to 0.6.0rc0,ancestor
+v0.7.0,ed8cbff3d253691ac81450eaf16cad46bf6149e5,2024-10-10T09:15:11Z,9186,6,nix/build-all propagate BUILD_SHARED_LIBS for -shared build,diverged
+v0.8.0,f8da61bf9249126c3ce41e7b995c68ae3ab520d9,2026-09-13T16:04:45+02:00,0,1628,Update submodule,descendant
+v0.8.0-old,4dc3dc37a53478c954d79f9d55d2c0ac738fc80d,2022-11-14T10:31:00+01:00,17953,69,Refactoring,diverged
+v0.9.0,23f3874de19d398451f8926722dc33c21aff5b74,2026-09-11T19:12:01+05:00,0,3116,run-cmake.py: pass Python args as cmake args instead of env vars,descendant
+web_running_pid,219b7d0c241a288e1ee73082bc7d44463fb4b3ea,2025-10-08T23:56:15+01:00,416,1,Put webui PID file in a writable location,diverged
+webui_adjustments,9aba2740708f5c1a88c3bbc1e7306d4dcc94ae56,2024-08-15T01:24:53+03:00,4835,20,make has_started check for both pid and port,diverged
+webui_demo,773605330b29f28be25876aaabd5334dae552cd7,2024-08-23T12:18:49+03:00,4809,7,fix first demo message not showing,diverged
+webui_gantt_chart,6402b0ed74c361de78f6a341aa6d71c2795e35bc,2024-07-05T10:15:21+03:00,5581,23,add logo and change path of jsgantt lib,diverged
+webui_updates,8b8af680bc2c2b5758da724edae3bfe185386335,2024-08-29T09:55:41+10:00,4580,0,Merge branch 'v0.8.0' into webui_updates,ancestor

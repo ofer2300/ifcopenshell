@@ -1,0 +1,106 @@
+{
+  "branch-summary.json": {
+    "bytes": 1715,
+    "sha256": "b94f6050b5fc8f37bf91f003aa9945855dd6a36effab991ff594055e9712c511"
+  },
+  "branches.csv": {
+    "bytes": 70874,
+    "sha256": "c941b0390beb6e4a49d1f157a8a1f4a13d5858b93ca021ab236ff34f854ca455"
+  },
+  "changes-0.8.0-to-v0.9.0.tsv": {
+    "bytes": 154370,
+    "sha256": "7db68991746481d679237fc451daacc5c23fe39809a9b61b11783b580e71f2c1"
+  },
+  "commits.csv": {
+    "bytes": 10194206,
+    "sha256": "4acac209ac3245d8a97782a26bef1d7dca7fbdc69eee614e8fdc0231ae32c8b7"
+  },
+  "directories.csv": {
+    "bytes": 57909,
+    "sha256": "3176768075e364dd5f08b856bf63a8e2f483db460cf51ebfcb89dab5a4cce858"
+  },
+  "external-and-archives.json": {
+    "bytes": 2813527,
+    "sha256": "13681f05b44a98fd9a3aa2d62312b449db280988cf0e78996055c9154635956a"
+  },
+  "files-v0.9.0.csv": {
+    "bytes": 453016,
+    "sha256": "9c3d1aaede481b62effa4b0b327543b612bfe1b8291ad489a0aecc3e0643da32"
+  },
+  "files.csv": {
+    "bytes": 611876,
+    "sha256": "d2ae22bbf8298f44ab15389ccf616ed19e7a49dfa720500eed18504eaf087866"
+  },
+  "findings.json": {
+    "bytes": 13188,
+    "sha256": "4153125a7b2bc24c2ba2757660fec2aef685442144f275480ba7ee62d18a3005"
+  },
+  "git-inventory.sqlite": {
+    "bytes": 854642688,
+    "sha256": "7f11f596e9ccd30aa79a800256888a2f0a99bdacce22d3b2cbd183b8b4fde66e"
+  },
+  "git-summary.json": {
+    "bytes": 580,
+    "sha256": "1fd047391308a9fa47bfb8ed95446080c17dbc821e270c0376939f071b7954ad"
+  },
+  "github-supplement.json": {
+    "bytes": 295191,
+    "sha256": "0ff644c6bbdd09d1be06fb87ada3fe058b414df002213e8ba528581d6c6ae83b"
+  },
+  "github-surfaces.json": {
+    "bytes": 325740,
+    "sha256": "18e66d25ab53155ec15aa61a1b7564115df52f99563e381e1fdacf47d6bf9463"
+  },
+  "inventory.html": {
+    "bytes": 5212005,
+    "sha256": "94a6123a1b71bc5d4f84ddd6110f172bd4fbaec9bbb5af4ca6a389088c586557"
+  },
+  "provenance.json": {
+    "bytes": 2672,
+    "sha256": "a56e22a47272619b07b95857190af06c6a64972528e6ce3493952c814e0ae950"
+  },
+  "PUBLICATION.he.md": {
+    "bytes": 3575,
+    "sha256": "b7646e233654ad8b9160927c3bbaa01ce5d0dd33d60cf5da8d7452b739663a6e"
+  },
+  "read_inventory.py": {
+    "bytes": 1397,
+    "sha256": "89d3a34b08034a6ce7d3d1e9d994d6115f1e3616dd7e5e99ebc785cbe993b4b9"
+  },
+  "README.he.md": {
+    "bytes": 2422,
+    "sha256": "f985d2948f415acb145abec8ca51a05ee2eef130bee2414dbd5d016aee340e29"
+  },
+  "README.md": {
+    "bytes": 3575,
+    "sha256": "b7646e233654ad8b9160927c3bbaa01ce5d0dd33d60cf5da8d7452b739663a6e"
+  },
+  "ref-validation.json": {
+    "bytes": 148,
+    "sha256": "93647dcd76fba77d30b8d620eba1c21d024b880c768de3b088fd73ba0097323b"
+  },
+  "refs.csv": {
+    "bytes": 1169404,
+    "sha256": "c75d187ec6b702f8244d938cc95d6819120dfd1421bafebaa4da3ed8225be354"
+  },
+  "report.he.html": {
+    "bytes": 53454,
+    "sha256": "2d74977077f0a7f147da15346a9faf060f5d74bd6764b7e53888205a42fa729f"
+  },
+  "report.he.md": {
+    "bytes": 46489,
+    "sha256": "2f05686f4c432c9c191c70fddcce0b734dc5dc3725f96e1fc5594a7e6be75416"
+  },
+  "server-refs.tsv": {
+    "bytes": 570417,
+    "sha256": "69fb4567a5fafa7ad2852168891e511be49c07c33b244cc27f708a4f2e7d91c9"
+  },
+  "snapshot-manifest-original.json": {
+    "bytes": 2965,
+    "sha256": "632b2471bafeb9c71fe19266d81cb272a390d7319567875311d9877c5013e3e4"
+  },
+  "verification.json": {
+    "bytes": 999,
+    "sha256": "6f752a99471bb169eb2562bba28da5861a101d46022660eab0b8f74233ed5167"
+  }
+}

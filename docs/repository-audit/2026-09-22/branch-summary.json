@@ -1,0 +1,57 @@
+{
+  "count": 415,
+  "relations": {
+    "same": 1,
+    "descendant": 318,
+    "ancestor": 11,
+    "diverged": 85
+  },
+  "key_branches": [
+    {
+      "branch": "0.8.0",
+      "sha": "481676e51b65cb93e520b9f073123f22a06b212b",
+      "date": "2025-11-22T00:04:57+01:00",
+      "behind_default": 0,
+      "ahead_of_default": 0,
+      "subject": "fix - recalculate normals for wall-mounted handrail railings",
+      "relation": "same"
+    },
+    {
+      "branch": "master",
+      "sha": "0edfb0e791e102376f4d0cf02078b992c5e8c7db",
+      "date": "2024-04-18T21:04:02+02:00",
+      "behind_default": 9208,
+      "ahead_of_default": 0,
+      "subject": "Settings rework for plan/model/context and interfacing with python",
+      "relation": "ancestor"
+    },
+    {
+      "branch": "v0.4.0",
+      "sha": "e39cbc6d0060c4bd2af4351aeb8432f57eab33d5",
+      "date": "2015-06-21T16:14:37Z",
+      "behind_default": 19472,
+      "ahead_of_default": 43,
+      "subject": "Fix ensure_fit_for_subtraction() function when input shape is a solid",
+      "relation": "diverged"
+    },
+    {
+      "branch": "v0.6.0",
+      "sha": "b8d36a63a29f37193f52027b421607f7c37434ce",
+      "date": "2021-09-24T10:25:22+02:00",
+      "behind_default": 15209,
+      "ahead_of_default": 0,
+      "subject": "Bump to 0.6.0rc0",
+      "relation": "ancestor"
+    },
+    {
+      "branch": "v0.7.0",
+      "sha": "ed8cbff3d253691ac81450eaf16cad46bf6149e5",
+      "date": "2024-10-10T09:15:11Z",
+      "behind_default": 9186,
+      "ahead_of_default": 6,
+      "subject": "nix/build-all propagate BUILD_SHARED_LIBS for -shared build",
+      "relation": "diverged"
+    }
+  ],
+  "unique_heads": 413
+}

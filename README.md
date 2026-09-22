@@ -2,6 +2,17 @@
 IfcOpenShell 
 ============
 
+
+<div dir="rtl" align="right">
+
+### דוח סקירת המאגר בעברית
+
+**[קריאת הדוח המלא](docs/repository-audit/2026-09-22/report.he.md)** · [תוצאות ונספחים](REPOSITORY-AUDIT.he.md) · [חבילת הראיות](https://github.com/ofer2300/ifcopenshell/releases/tag/audit-2026-09-22)
+
+צילום מצב 22.09.2026: ‏415 ענפים, 75,094 תכנים ייחודיים ו־14 ממצאים. האיסוף המכני הושלם; הכיסוי הסמנטי חלקי ומפורט בדוח.
+
+</div>
+
 <p align="center">
 <img src="https://github.com/IfcOpenShell/IfcOpenShell/assets/88302/34901387-e2dd-4a0c-8e38-9ffc32a66cde">
 </p>
