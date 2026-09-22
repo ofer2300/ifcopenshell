@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-09-22T02:26:08.755735+00:00",
+  "finished_at": "2026-09-22T02:39:03.634975+00:00",
+  "head": "481676e51b65cb93e520b9f073123f22a06b212b",
+  "counts": {
+    "commit": 51380,
+    "tag": 14,
+    "tree": 176858,
+    "blob": 75094
+  },
+  "uncompressed_bytes": 5009447360,
+  "refs": 7316,
+  "current_files": 3467,
+  "flags": [],
+  "state": "SNAPSHOT_COLLECTED_NOT_AUDIT_VERDICT",
+  "method": "Skill blob inspector; normalized trees retain all paths for every commit without duplicating whole trees. Mechanical inspection is not semantic review."
+}

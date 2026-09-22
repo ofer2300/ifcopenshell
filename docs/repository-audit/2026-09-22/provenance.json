@@ -1,0 +1,75 @@
+{
+  "repository": {
+    "full_name": "ofer2300/ifcopenshell",
+    "private": false,
+    "fork": false,
+    "default_branch": "0.8.0",
+    "created_at": "2026-09-13T18:41:08Z",
+    "updated_at": "2026-09-13T18:43:27Z",
+    "pushed_at": "2026-09-13T18:44:43Z",
+    "size": 415429,
+    "has_pages": false,
+    "has_discussions": false,
+    "has_wiki": true
+  },
+  "generated_at": "2026-09-22T02:47:41.683773+00:00",
+  "github_capture_file_timestamp_utc": "2026-09-22T02:27:24.140310+00:00",
+  "workers": {
+    "deepseek": {
+      "provider": "deepseek",
+      "model_requested": "deepseek-v4-pro",
+      "model_returned": "deepseek-v4-pro",
+      "status": "RETURNED_TO_PARENT",
+      "content_hash": "7f76c3308ab8147c20bf34c017d638cf764413782f126279a7370a21035555e0",
+      "scope_paths": [
+        "Dockerfile",
+        "VERSION",
+        "pixi.toml",
+        "pyproject.toml",
+        ".gitmodules",
+        ".github/workflows/ci.yml",
+        ".github/workflows/ci-bonsai.yml",
+        ".github/workflows/docs-deployment.yml",
+        ".github/workflows/build_all.yml",
+        "cmake/CMakeLists.txt",
+        "src/ifcopenshell-python/ifcopenshell/__init__.py",
+        "src/ifcopenshell-python/ifcopenshell/file.py"
+      ]
+    },
+    "kimi": {
+      "provider": "kimi",
+      "model_requested": "kimi-k3",
+      "model_returned": "kimi-k3",
+      "status": "RETURNED_TO_PARENT",
+      "content_hash": "fe1ad6d0a2234e331f4b54af5d83b88db5b3eb161182ca5a7842aaf155938a07",
+      "scope_paths": [
+        "src/ifc5d/README.md",
+        "src/ifc4d/README.md",
+        "src/ifc2ca/README.md",
+        "src/ifc5d/ifc5d/csv2ifc.py",
+        "src/ifc5d/ifc5d/ifc5Dspreadsheet.py",
+        "src/ifctester/ifctester/__main__.py",
+        "src/ifcpatch/ifcpatch/__init__.py",
+        "src/ifcclash/ifcclash/ifcclash.py"
+      ]
+    }
+  },
+  "jev": {
+    "plan-result": {
+      "status": "RETURNED",
+      "model_requested": "~typesafe/jev-latest",
+      "model_returned": "typesafe/jev-1.13-20260917"
+    },
+    "result-review": {
+      "status": "RETURNED",
+      "model_requested": "~typesafe/jev-latest",
+      "model_returned": "typesafe/jev-1.13-20260917"
+    }
+  },
+  "source_code_executed": false,
+  "working_copy_modified": false,
+  "delivery": "LOCAL_ONLY",
+  "semantic_coverage": "PARTIAL",
+  "review_note": "Worker proposals were independently checked against pinned code. Unsupported worker claims were not accepted. Full semantic coverage is not claimed.",
+  "publication_note": "Public derivative: account traffic and private execution identifiers omitted; original local snapshot preserved."
+}
